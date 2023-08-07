@@ -2,9 +2,9 @@
 # Day 1: 
 
 
-
 ## Introduction
 **What is a JavaScript?**
+* **Where do we use JS?**
 
 ### Coding Examples
 

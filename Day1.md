@@ -3,9 +3,8 @@
 
 
 ## Introduction
-**What is a JavaScript?**
-hi
-* **Where do we use JS?**
+* **What is a JavaScript?**
+* **Where to write JS?**
 
 ### Coding Examples
 

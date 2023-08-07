@@ -32,12 +32,12 @@ Document Object Model it's a built in object in JS that represents the whole doc
 ### Coding Examples
 **Type commands in the console to retrieve**
   1. all the `p` elements
-  2. the text X
+  2. the text **X**
   3. the number of sequares in the board
-  4. the text A game you knew
+  4. the text **A game you knew**
   5. change the player names to you & nighbor
   6. swap the player symbols
-  7. change subtitle to A game you know and love
+  7. change subtitle to **A game you know and love**
 
 ```javascript
 

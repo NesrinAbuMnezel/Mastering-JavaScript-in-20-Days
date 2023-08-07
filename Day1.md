@@ -32,13 +32,21 @@ Document Object Model it's a built in object in JS that represents the whole doc
 ### Coding Examples
 **Type commands in the console to retrieve**
   1. all the `p` elements
+    `document.getElementsByTagName("p")`
   2. the text **X**
+    `document.getElementById("p1-symbol").textContent`
   3. the number of sequares in the board
-  4. the text **A game you knew**
+     `document.querySelectorAll(".square").length`
+  4. the text **A game you know**
+     `document.querySelector("h2").textContent`
   5. change the player names to you & nighbor
+     `document.querySelector("#p1-name").textContent = nesrin`
+     `document.querySelector("#p2-name").textContent = ahmed`
   6. swap the player symbols
+     `document.getElementById("p1-symbol").textContent = "O"`
+     `document.getElementById("p1-symbol").textContent = "X"`
   7. change subtitle to **A game you know and love**
-
+     `document.querySelector("header h2").append("  and love")`
 ```javascript
 
 

@@ -4,7 +4,7 @@
 
 
 
-## Introduction </br>
+## Introduction 
 * **What is a  JavaScript?**
   - programming language, it's a language of the web.
   - language to modify and interact with HTML.
@@ -14,7 +14,7 @@
 * **Where to write  JavaScript?**
   - the browser's JS console.
   - local text file in editor, e.g. VS Code.
-  - online playground e.g. CodePen, CodeSandbox. </br>
+  - online playground e.g. CodePen, CodeSandbox. 
 ### Coding Examples
 
 ```javascript

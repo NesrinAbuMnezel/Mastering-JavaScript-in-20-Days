@@ -5,8 +5,8 @@
 
 
 ## Introduction
-* **What is a JavaScript?**
-* **Where to write JS?**
+* **What is a  JavaScript?**
+* **Where to write  JavaScript?**
 
 ### Coding Examples
 

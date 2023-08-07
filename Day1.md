@@ -30,24 +30,65 @@ Document Object Model it's a built in object in JS that represents the whole doc
 
 
 ### Coding Examples
+**Type commands in the console to retrieve**
+  1. all the `p` elements
+  2. the text X
+  3. the number of sequares in the board
+  4. the text A game you knew
+  5. change the player names to you & nighbor
+  6. swap the player symbols
+  7. change subtitle to A game you know and love
 
 ```javascript
+
 
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
     <meta charset="utf-8">
     <title>JavaScripTacToe</title>
+    <style>
+        body {
+            margin: 1rem auto;
+            padding: 3rem;
+            font-family: sans-serif;
+        }
+        header {
+            width: 50%;
+            margin: 1em auto;
+        }
+        #board {
+            max-width: 50%;
+            margin: 1em auto;
+            display:grid; 
+            grid-template-columns: 1fr 1fr 1fr; 
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-gap: 1rem;
+            background-color: teal;
+        }
+        .square {
+            min-height: 1.3em;
+            text-align: center;
+            background-color: white;
+            font-size: 5rem;
+            font-family: monospace;
+            color: black;
+        }
+    </style>
   </head>
   <body>
     <header>
     <h1>Tic Tac Toe</h1>
     <h2>A game you know</h2>
+
+
     <div id="players">
         <p id="p1" class="player">Player <span id="p1-symbol">X</span>: <span id="p1-name">Anjana</span></p>
         <p id="p2" class="player">Player <span id="p2-symbol">O</span>: <span id="p2-name">Marc</span></p>
     </div>
     </header>
+
+
     <div id="board">
         <div class="square"></div>
         <div class="square"></div>
@@ -59,6 +100,8 @@ Document Object Model it's a built in object in JS that represents the whole doc
         <div class="square"></div>
         <div class="square"></div>
     </div>
+
+
   </body>
 </html>
 

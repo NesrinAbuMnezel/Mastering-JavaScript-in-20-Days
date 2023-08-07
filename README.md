@@ -16,7 +16,7 @@ In this challenge, i will enhance my JavaScript skills and knowledge. Each day, 
  - [Deep JavaScript Foundations, v3](https://frontendmasters.com/courses/deep-javascript-v3/)
 
 ## Coding Challenges
- - [First Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/convert-celsius-to-fahrenheit)
+ - [Compound Assignment With Augmented Multiplication](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication)
 
 
 ## Daily Learning Process

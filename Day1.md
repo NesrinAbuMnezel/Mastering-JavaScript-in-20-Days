@@ -13,6 +13,8 @@
   - online playground e.g. CodePen, CodeSandbox.
 ## DOM 
 Document Object Model it's a built in object in JS that represents the whole document.
+#### Finding Elements in a Web Page
+
 ### Coding Examples
 
 ```javascript

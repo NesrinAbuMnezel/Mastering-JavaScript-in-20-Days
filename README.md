@@ -20,10 +20,10 @@ In this challenge, i will enhance my JavaScript skills and knowledge. Each day, 
 
 
 ## Daily Learning Process
-1. Each day, you will watch 90 minutes of the assigned courses listed above.
+1. Each day, i will watch 90 minutes of the assigned courses listed above.
 2. Solve all the JavaScript coding challenges that will be provided by the GSG team.
-3. Summarize your daily learning and document your challenge solutions on a separate readme page.
-4. Repeat the process for the next 20 days, gradually advancing your JavaScript skills.
+3. Summarize my daily learning and document my challenge solutions on a separate readme page.
+4. Repeat the process for the next 20 days, gradually advancing my JavaScript skills.
 
 
 

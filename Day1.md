@@ -4,7 +4,7 @@
 
 
 ## Introduction
-** What is a JavaScript?**
+**What is a JavaScript?**
 
 ### Coding Examples
 

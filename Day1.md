@@ -20,6 +20,9 @@ Document Object Model it's a built in object in JS that represents the whole doc
 - `document.getElementById("board")` & `document.querySelector("#board")` : the (first) element with id="board"
 - `document.getElementsByTagName("h1")` & `document.querySelectorAll("h1")` : all the h1 elements
 - `document.getElementsByClassName("player")` & `document.querySelectorAll(".player")` : all the elements with class="player"
+- `document.getElementsByClassName("player").length` & `document.querySelectorAll(".player").length` : the number of elements with class="player"
+- `document.getElementById("p1-name").textContent` : the text inside the element with id="p1-name"
+  
 
 
 

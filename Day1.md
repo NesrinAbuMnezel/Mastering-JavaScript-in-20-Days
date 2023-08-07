@@ -14,7 +14,7 @@
 * **Where to write  JavaScript?**
   - the browser's JS console.
   - local text file in editor, e.g. VS Code.
-  - online playground e.g. CodePen, ==CodeSandbox==.
+  - online playground e.g. CodePen, CodeSandbox. </br>
 
 ### Coding Examples
 

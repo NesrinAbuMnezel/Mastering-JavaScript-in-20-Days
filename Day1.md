@@ -1,6 +1,5 @@
 
 # Day 1: 
- <br>
 ## Introduction 
 * **What is a  JavaScript?**
   - programming language, it's a language of the web.

@@ -2,6 +2,8 @@
 # Day 1: 
 
 
+
+
 ## Introduction
 * **What is a JavaScript?**
 * **Where to write JS?**

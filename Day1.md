@@ -4,13 +4,7 @@
 
 
 ## Introduction
-
-In this lesson, we explored hoisting in JavaScript. Here are the key points covered:
-
-- Hoisting is the process of moving variable and function declarations to the top of their scope.
-- Variable declarations are hoisted but not their assignments. They are accessible but have an initial value of `undefined`.
-- Function declarations are also hoisted, allowing them to be called before they are defined.
-- Hoisting does not apply to function expressions, arrow functions, or variables declared with `let` or `const`.
+** What is a JavaScript?**
 
 ### Coding Examples
 

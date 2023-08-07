@@ -14,7 +14,7 @@
 ## DOM 
 Document Object Model it's a built in object in JS that represents the whole document.
 ### Finding Elements in a Web Page:
-     `document.title` : the page (document) title
+-`document.title` : the page (document) title
 
 ### Coding Examples
 

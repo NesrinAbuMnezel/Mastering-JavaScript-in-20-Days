@@ -6,10 +6,10 @@
 
 ## Introduction
 * **What is a  JavaScript?**
-- programming language, it's a language of the web.
-- language to modify and interact with HTML.
-- dynamic programming language.
-- JS was created in 1995 by Brendan Eich in 10 days.
+  - programming language, it's a language of the web.
+  - language to modify and interact with HTML.
+  - dynamic programming language.
+  - JS was created in 1995 by Brendan Eich in 10 days.
 * **Where to write  JavaScript?**
 
 ### Coding Examples

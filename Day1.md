@@ -14,7 +14,17 @@
 ## DOM 
 Document Object Model it's a built in object in JS that represents the whole document.
 ### Finding Elements in a Web Page:
--`document.title` : the page (document) title
+- `document.title` : the page (document) title
+- `document.body` : the body element
+- `document.body.children` : all the elements within the body
+- `document.getElementById("board")` & `document.querySelector("#board")` : the (first) element with id="board"
+- `document.getElementsByTagName("h1")` & `document.querySelectorAll("h1")` : all the h1 elements
+- `document.getElementsByClassName("player")` & `document.querySelectorAll(".player")` : all the elements with class="player"
+
+
+
+
+
 
 ### Coding Examples
 

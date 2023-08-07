@@ -44,7 +44,7 @@ Document Object Model it's a built in object in JS that represents the whole doc
      `document.querySelector("#p2-name").textContent = ahmed`
   6. swap the player symbols  <br>
      `document.getElementById("p1-symbol").textContent = "O"`
-     `document.getElementById("p1-symbol").textContent = "X"`
+     `document.getElementById("p2-symbol").textContent = "X"`
   7. change subtitle to **A game you know and love**  <br>
      `document.querySelector("header h2").append("  and love")`
 ```javascript

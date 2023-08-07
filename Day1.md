@@ -12,6 +12,9 @@
   - JS was created in 1995 by Brendan Eich in 10 days.
   - we can run JS in the browser and on servers using a project called node js.
 * **Where to write  JavaScript?**
+  - the browser's JS console.
+  - local text file in editor, e.g. VS Code.
+  - online playground e.g. CodePen, ==CodeSandbox==.
 
 ### Coding Examples
 

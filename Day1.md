@@ -1,9 +1,9 @@
 
-# Day 1: Hoisting
+# Day 1: 
 
-This README file summarizes the JavaScript lesson on hoisting. Hoisting is a behavior in JavaScript where variable and function declarations are moved to the top of their scope during the compilation phase.
 
-## Lesson Summary
+
+## Introduction
 
 In this lesson, we explored hoisting in JavaScript. Here are the key points covered:
 
@@ -12,7 +12,7 @@ In this lesson, we explored hoisting in JavaScript. Here are the key points cove
 - Function declarations are also hoisted, allowing them to be called before they are defined.
 - Hoisting does not apply to function expressions, arrow functions, or variables declared with `let` or `const`.
 
-## Coding Examples
+### Coding Examples
 
 ```javascript
 // Example 1: Variable Hoisting

@@ -32,17 +32,36 @@ Document Object Model it's a built in object in JS that represents the whole doc
 ### Coding Examples
 
 ```javascript
-// Example 1: Variable Hoisting
-console.log(x); // Output: undefined
-var x = 10;
-console.log(x); // Output: 10
 
-// Example 2: Function Hoisting
-hoistedFunction(); // Output: "Hello, World!"
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScripTacToe</title>
+  </head>
+  <body>
+    <header>
+    <h1>Tic Tac Toe</h1>
+    <h2>A game you know</h2>
+    <div id="players">
+        <p id="p1" class="player">Player <span id="p1-symbol">X</span>: <span id="p1-name">Anjana</span></p>
+        <p id="p2" class="player">Player <span id="p2-symbol">O</span>: <span id="p2-name">Marc</span></p>
+    </div>
+    </header>
+    <div id="board">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+  </body>
+</html>
 
-function hoistedFunction() {
-  console.log("Hello, World!");
-}
 
 ```
 

@@ -4,6 +4,7 @@
 
 ## Introduction
 **What is a JavaScript?**
+hi
 * **Where do we use JS?**
 
 ### Coding Examples

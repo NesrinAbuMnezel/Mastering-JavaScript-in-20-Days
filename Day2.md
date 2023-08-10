@@ -1,16 +1,60 @@
 
 # Day 2: 
+## Values & Data Types
+* **What is a  JavaScript?**
+  - programming language, it's a language of the web.
+  - language to modify and interact with HTML.
+  - dynamic programming language.
+  - JS was created in 1995 by Brendan Eich in 10 days.
+  - we can run JS in the browser and on servers using a project called node js.
+* **Where to write  JavaScript?**
+  - the browser's JS console.
+  - local text file in editor, e.g. VS Code.
+  - online playground e.g. CodePen, CodeSandbox.
+## Operators
+Document Object Model it's a built in object in JS that represents the whole document.
+### Finding Elements in a Web Page:
+- `document.title` : the page (document) title
+- `document.body` : the body element
+- `document.body.children` : all the elements within the body
+- `document.getElementById("board")` or `document.querySelector("#board")` : the (first) element with id="board"
+- `document.getElementsByTagName("h1")` or `document.querySelectorAll("h1")` : all the h1 elements
+- `document.getElementsByClassName("player")` or `document.querySelectorAll(".player")` : all the elements with class="player"
+- `document.getElementsByClassName("player").length`or `document.querySelectorAll(".player").length` : the number of elements with class="player"
+- `document.getElementById("p1-name").textContent` : the text inside the element with id="p1-name"
+ ## Expressions
+* **What is a  JavaScript?**
+  - programming language, it's a language of the web.
+  - language to modify and interact with HTML.
+  - dynamic programming language.
+  - JS was created in 1995 by Brendan Eich in 10 days.
+  - we can run JS in the browser and on servers using a project called node js.
+* **Where to write  JavaScript?**
+  - the browser's JS console.
+  - local text file in editor, e.g. VS Code.
+  - online playground e.g. CodePen, CodeSandbox. 
 
-This README file summarizes the JavaScript lesson on hoisting. Hoisting is a behavior in JavaScript where variable and function declarations are moved to the top of their scope during the compilation phase.
+### Coding Examples
+**Type commands in the console to retrieve**
+  1. all the `p` elements <br>
+    `document.getElementsByTagName("p")`
+  2. the text **X** <br>
+    `document.getElementById("p1-symbol").textContent`
+  3. the number of sequares in the board <br>
+     `document.querySelectorAll(".square").length`
+  4. the text **A game you know**  <br>
+     `document.querySelector("h2").textContent`
+  5. change the player names to you & nighbor  <br>
+     `document.querySelector("#p1-name").textContent = nesrin`
+     `document.querySelector("#p2-name").textContent = ahmed`
+  6. swap the player symbols  <br>
+     `document.getElementById("p1-symbol").textContent = "O"`
+     `document.getElementById("p2-symbol").textContent = "X"`
+  7. change subtitle to **A game you know and love**  <br>
+     `document.querySelector("header h2").append("  and love")`
+```javascript
 
-## Lesson Summary
 
-In this lesson, we explored hoisting in JavaScript. Here are the key points covered:
-
-- Hoisting is the process of moving variable and function declarations to the top of their scope.
-- Variable declarations are hoisted but not their assignments. They are accessible but have an initial value of `undefined`.
-- Function declarations are also hoisted, allowing them to be called before they are defined.
-- Hoisting does not apply to function expressions, arrow functions, or variables declared with `let` or `const`.
 
 ## Coding Examples
 

@@ -1,5 +1,5 @@
 
-# Day 2: Hoisting
+# Day 2: 
 
 This README file summarizes the JavaScript lesson on hoisting. Hoisting is a behavior in JavaScript where variable and function declarations are moved to the top of their scope during the compilation phase.
 
@@ -108,8 +108,8 @@ What will be the output of each `console.log` statement? **_You MUST explain WHY
 
 #### My Solution
 ```
-true  //compare the value
-false //compare the value and data type
+true  // compare the value
+false // compare the value and data type
 ```
 
 -------------------------------------------------------------------
@@ -129,5 +129,5 @@ What is the value of result? **_You MUST explain the steps of evaluation taken b
 
 #### My Solution
 ```
-true  //num > 10 (Implicit Conversion) so it gives true && true || false 
+true  // num > 10 (Implicit Conversion) so it gives true && true || false 
 ```

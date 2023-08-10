@@ -38,17 +38,14 @@ function hoistedFunction() {
 
 
 ```javascript
-// Example 1: Variable Hoisting
-console.log(x); // Output: undefined
-var x = 10;
-console.log(x); // Output: 10
-
-// Example 2: Function Hoisting
-hoistedFunction(); // Output: "Hello, World!"
-
-function hoistedFunction() {
-  console.log("Hello, World!");
+function forecast(arr) {
+  // Only change code below this line
+   arr=arr.slice(2,4);
+  return arr;
 }
+
+// Only change code above this line
+console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));
 
 ```
 
@@ -58,17 +55,13 @@ function hoistedFunction() {
 
 
 ```javascript
-// Example 1: Variable Hoisting
-console.log(x); // Output: undefined
-var x = 10;
-console.log(x); // Output: 10
-
-// Example 2: Function Hoisting
-hoistedFunction(); // Output: "Hello, World!"
-
-function hoistedFunction() {
-  console.log("Hello, World!");
+function spreadOut() {
+  let fragment = ['to', 'code'];
+  let sentence=['learning',...fragment,'is','fun']; // Change this line
+  return sentence;
 }
+
+console.log(spreadOut());
 
 ```
 
@@ -78,17 +71,53 @@ function hoistedFunction() {
 
 
 ```javascript
-// Example 1: Variable Hoisting
-console.log(x); // Output: undefined
-var x = 10;
-console.log(x); // Output: 10
+// Setup
+const contacts = [
+  {
+    firstName: "Akira",
+    lastName: "Laine",
+    number: "0543236543",
+    likes: ["Pizza", "Coding", "Brownie Points"],
+  },
+  {
+    firstName: "Harry",
+    lastName: "Potter",
+    number: "0994372684",
+    likes: ["Hogwarts", "Magic", "Hagrid"],
+  },
+  {
+    firstName: "Sherlock",
+    lastName: "Holmes",
+    number: "0487345643",
+    likes: ["Intriguing Cases", "Violin"],
+  },
+  {
+    firstName: "Kristian",
+    lastName: "Vos",
+    number: "unknown",
+    likes: ["JavaScript", "Gaming", "Foxes"],
+  },
+];
 
-// Example 2: Function Hoisting
-hoistedFunction(); // Output: "Hello, World!"
-
-function hoistedFunction() {
-  console.log("Hello, World!");
-}
+function lookUpProfile(name, prop) {
+   let msg;; 
+  for (let i=0; i<contacts.length; i++) {
+    if (contacts[i].firstName === name) {
+      msg = contacts[i];
+      break;
+    }
+  }
+  if (msg) {
+    if (msg.hasOwnProperty(prop)) {
+      return msg[prop];
+    } else {
+      return "No such property";
+    }
+  } else {
+    return "No such contact";
+  }
+  }
+lookUpProfile("Akira", "likes");
 
 ```
 
@@ -98,17 +127,10 @@ function hoistedFunction() {
 
 
 ```javascript
-// Example 1: Variable Hoisting
-console.log(x); // Output: undefined
-var x = 10;
-console.log(x); // Output: 10
-
-// Example 2: Function Hoisting
-hoistedFunction(); // Output: "Hello, World!"
-
-function hoistedFunction() {
-  console.log("Hello, World!");
+function reusableFunction(){
+  console.log('Hi World')
 }
+reusableFunction()
 
 ```
 
@@ -118,17 +140,23 @@ function hoistedFunction() {
 
 
 ```javascript
-// Example 1: Variable Hoisting
-console.log(x); // Output: undefined
-var x = 10;
-console.log(x); // Output: 10
+// Setup
+let sum = 0;
 
-// Example 2: Function Hoisting
-hoistedFunction(); // Output: "Hello, World!"
-
-function hoistedFunction() {
-  console.log("Hello, World!");
+function addThree() {
+  sum = sum + 3;
 }
+function addFive() {
+  sum = sum + 5;
+}
+
+// Only change code below this line
+
+
+// Only change code above this line
+
+addThree();
+addFive();
 
 ```
 
@@ -138,16 +166,9 @@ function hoistedFunction() {
 
 
 ```javascript
-// Example 1: Variable Hoisting
-console.log(x); // Output: undefined
-var x = 10;
-console.log(x); // Output: 10
-
-// Example 2: Function Hoisting
-hoistedFunction(); // Output: "Hello, World!"
-
-function hoistedFunction() {
-  console.log("Hello, World!");
+function timesFive(num){
+return num*5
 }
+const answer=timesFive(5)
 
 ```

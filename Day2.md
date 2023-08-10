@@ -60,7 +60,7 @@
 * **Statements vs. Expressions**
   - An expression "asks" JS for a value
   - A statement "tells" JS to do something (e.g. declare/assign a variable)
-  - Assigning a variable
+ 
 
 ### Coding Examples
 **Which data type is each of these values?**

@@ -1,5 +1,5 @@
 
-# Day 3: Hoisting
+# Day 3: 
 
 This README file summarizes the JavaScript lesson on hoisting. Hoisting is a behavior in JavaScript where variable and function declarations are moved to the top of their scope during the compilation phase.
 

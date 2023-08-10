@@ -29,7 +29,11 @@
 * **toLowerCase**
   - returns the lowercase version of a string
 ## Operators
-Document Object Model it's a built in object in JS that represents the whole document.
+* **Arithmetic operators**
+  - `+` add
+  - `-` subtract
+  - `*` multiply
+  - `/` divide
 ### Finding Elements in a Web Page:
 - `document.title` : the page (document) title
 - `document.body` : the body element

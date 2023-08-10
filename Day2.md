@@ -34,6 +34,16 @@
   - `-` subtract
   - `*` multiply
   - `/` divide
+* **Comparison operators**
+  - `>` greater than
+  - `<` less than
+  - `>=` greater than or equal to
+  - `<=` less than or equal to
+* **Equality operators**
+  - `===` equals (strict)
+  - `==`  equals (loosey-goosey)
+  - `!==` does not equal (strict)
+  - `!=`  does not equal (loosey-goosey)
 ### Finding Elements in a Web Page:
 - `document.title` : the page (document) title
 - `document.body` : the body element

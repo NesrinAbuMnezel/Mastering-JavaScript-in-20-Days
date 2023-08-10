@@ -32,7 +32,107 @@ function hoistedFunction() {
 
 ## Coding Exercises
 
-### [Factorialize a Number](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/factorialize-a-number)
+### [Copy Array Items Using slice()](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/copy-array-items-using-slice)
+
+#### My Solution
+
+
+```javascript
+// Example 1: Variable Hoisting
+console.log(x); // Output: undefined
+var x = 10;
+console.log(x); // Output: 10
+
+// Example 2: Function Hoisting
+hoistedFunction(); // Output: "Hello, World!"
+
+function hoistedFunction() {
+  console.log("Hello, World!");
+}
+
+```
+
+### [Combine Arrays with the Spread Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/combine-arrays-with-the-spread-operator)
+
+#### My Solution
+
+
+```javascript
+// Example 1: Variable Hoisting
+console.log(x); // Output: undefined
+var x = 10;
+console.log(x); // Output: 10
+
+// Example 2: Function Hoisting
+hoistedFunction(); // Output: "Hello, World!"
+
+function hoistedFunction() {
+  console.log("Hello, World!");
+}
+
+```
+
+### [Profile Lookup](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/profile-lookup)
+
+#### My Solution
+
+
+```javascript
+// Example 1: Variable Hoisting
+console.log(x); // Output: undefined
+var x = 10;
+console.log(x); // Output: 10
+
+// Example 2: Function Hoisting
+hoistedFunction(); // Output: "Hello, World!"
+
+function hoistedFunction() {
+  console.log("Hello, World!");
+}
+
+```
+
+### [Write Reusable JavaScript with Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions)
+
+#### My Solution
+
+
+```javascript
+// Example 1: Variable Hoisting
+console.log(x); // Output: undefined
+var x = 10;
+console.log(x); // Output: 10
+
+// Example 2: Function Hoisting
+hoistedFunction(); // Output: "Hello, World!"
+
+function hoistedFunction() {
+  console.log("Hello, World!");
+}
+
+```
+
+### [Understanding Undefined Value returned from a Function](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-undefined-value-returned-from-a-function)
+
+#### My Solution
+
+
+```javascript
+// Example 1: Variable Hoisting
+console.log(x); // Output: undefined
+var x = 10;
+console.log(x); // Output: 10
+
+// Example 2: Function Hoisting
+hoistedFunction(); // Output: "Hello, World!"
+
+function hoistedFunction() {
+  console.log("Hello, World!");
+}
+
+```
+
+### [Return a Value from a Function with Return](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/return-a-value-from-a-function-with-return)
 
 #### My Solution
 

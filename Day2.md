@@ -50,7 +50,8 @@ console.log(!!d);
 What will be the output of each console.log statement? **_You MUST explain WHY_**.
 
 #### My Solution
-```true
+```
+true
 false
 true
 ```

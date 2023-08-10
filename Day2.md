@@ -32,11 +32,8 @@ function hoistedFunction() {
 
 ## Coding Exercises
 
-###  [delieverables](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week1%20-%20javascript-from-first-steps-to-professional/day%202/tasks.md)
-
-#### My Solution
-
-
+###  QUESTION #1
+Consider the following JavaScript code:
 ```javascript
 let a = 0;
 let b = "0";
@@ -47,22 +44,54 @@ console.log(a == b);
 console.log(b === c);
 console.log(!!d);
 ```
+What will be the output of each console.log statement? You MUST explain WHY.
 
+
+#### My Solution
+
+###  QUESTION #2
+Consider the following JavaScript code:
 ```javascript
 console.log(4 + 5 * "7");
 ```
+What will be the output of each console.log statement? You MUST explain WHY.
 
+
+#### My Solution
+###  QUESTION #3
+Consider the following JavaScript code:
 ```javascript
 let result = 5 + 2 * 3 - 1;
 ```
+What will be the output of each console.log statement? You MUST explain WHY.
 
+
+#### My Solution
+###  QUESTION #4
+Consider the following JavaScript code:
 ```javascript
 let num = "15";
 let isPositive = true;
 let result = (num > 10 && isPositive) || num < 0;
 console.log(result);
 ```
+What will be the output of each console.log statement? You MUST explain WHY.
 
+
+#### My Solution
+###  QUESTION #5
+Consider the following JavaScript code:
 ```javascript
 console.log(4 + 5 * "7");
 ```
+What will be the output of each console.log statement? You MUST explain WHY.
+
+
+#### My Solution
+
+
+
+
+
+
+

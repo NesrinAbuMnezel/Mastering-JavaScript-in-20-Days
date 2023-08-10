@@ -44,26 +44,23 @@
   - `==`  equals (loosey-goosey)
   - `!==` does not equal (strict)
   - `!=`  does not equal (loosey-goosey)
-### Finding Elements in a Web Page:
-- `document.title` : the page (document) title
-- `document.body` : the body element
-- `document.body.children` : all the elements within the body
-- `document.getElementById("board")` or `document.querySelector("#board")` : the (first) element with id="board"
-- `document.getElementsByTagName("h1")` or `document.querySelectorAll("h1")` : all the h1 elements
-- `document.getElementsByClassName("player")` or `document.querySelectorAll(".player")` : all the elements with class="player"
-- `document.getElementsByClassName("player").length`or `document.querySelectorAll(".player").length` : the number of elements with class="player"
-- `document.getElementById("p1-name").textContent` : the text inside the element with id="p1-name"
  ## Expressions
-* **What is a  JavaScript?**
-  - programming language, it's a language of the web.
-  - language to modify and interact with HTML.
-  - dynamic programming language.
-  - JS was created in 1995 by Brendan Eich in 10 days.
-  - we can run JS in the browser and on servers using a project called node js.
-* **Where to write  JavaScript?**
-  - the browser's JS console.
-  - local text file in editor, e.g. VS Code.
-  - online playground e.g. CodePen, CodeSandbox. 
+ an expression evaluates to a value
+* **Variables**
+  - Variables let us remember values
+  - Declaring a variable `let bankruptcy;`
+  - Assigning a variable
+     ```
+     let myDeclaredVariable;
+      myDeclaredVariable = "so value, much wow";
+     ```
+  - Declaring & assigning at once `let myAssignedVariable = "such efficient, amaze";`
+* **const**
+  - declares & assigns a "constant" aka a variable that can't be changed `const myUnchangeableVariable = "Never gonna give you up";`
+* **Statements vs. Expressions**
+  - An expression "asks" JS for a value
+  - A statement "tells" JS to do something (e.g. declare/assign a variable)
+  - Assigning a variable
 
 ### Coding Examples
 **Which data type is each of these values?**
@@ -77,25 +74,6 @@
      `number`
   5. null
      `object`
-
-
-
-## Coding Examples
-
-```javascript
-// Example 1: Variable Hoisting
-console.log(x); // Output: undefined
-var x = 10;
-console.log(x); // Output: 10
-
-// Example 2: Function Hoisting
-hoistedFunction(); // Output: "Hello, World!"
-
-function hoistedFunction() {
-  console.log("Hello, World!");
-}
-
-```
 
 
 ## Coding Exercises

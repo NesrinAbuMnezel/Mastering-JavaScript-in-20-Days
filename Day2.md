@@ -1,16 +1,20 @@
 
 # Day 2: 
 ## Values & Data Types
-* **What is a  JavaScript?**
-  - programming language, it's a language of the web.
-  - language to modify and interact with HTML.
-  - dynamic programming language.
-  - JS was created in 1995 by Brendan Eich in 10 days.
-  - we can run JS in the browser and on servers using a project called node js.
-* **Where to write  JavaScript?**
-  - the browser's JS console.
-  - local text file in editor, e.g. VS Code.
-  - online playground e.g. CodePen, CodeSandbox.
+* **Values**
+  - chunks of information we want to work with
+  - that information (data) can be of different types
+* **typeof**
+  - tells you the type of a value
+* **JS has two kinds of data:**
+  - Primitive types (e.g. strings, numbers)
+  - Objects (e.g. document & friends)
+* **Primitive data types**
+  - string
+  - number
+  - boolean
+  - undefined
+  - null
 ## Operators
 Document Object Model it's a built in object in JS that represents the whole document.
 ### Finding Elements in a Web Page:
@@ -52,7 +56,6 @@ Document Object Model it's a built in object in JS that represents the whole doc
      `document.getElementById("p2-symbol").textContent = "X"`
   7. change subtitle to **A game you know and love**  <br>
      `document.querySelector("header h2").append("  and love")`
-```javascript
 
 
 

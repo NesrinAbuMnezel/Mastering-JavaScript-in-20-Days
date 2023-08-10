@@ -15,6 +15,19 @@
   - boolean
   - undefined
   - null
+* **Strings**
+  - strings are  made of characters
+* **indexOf**
+  - returns the index of a specific character, and if the character does not exit it returns -1
+  - returns At what index does this substring begin
+* **includes**
+  - returns if the string contain some other string
+* **startsWith**
+  - returns if the string  start with some other string
+* **+**
+  - Connecting strings together
+* **toLowerCase**
+  - returns the lowercase version of a string
 ## Operators
 Document Object Model it's a built in object in JS that represents the whole document.
 ### Finding Elements in a Web Page:
@@ -39,23 +52,17 @@ Document Object Model it's a built in object in JS that represents the whole doc
   - online playground e.g. CodePen, CodeSandbox. 
 
 ### Coding Examples
-**Type commands in the console to retrieve**
-  1. all the `p` elements <br>
-    `document.getElementsByTagName("p")`
-  2. the text **X** <br>
-    `document.getElementById("p1-symbol").textContent`
-  3. the number of sequares in the board <br>
-     `document.querySelectorAll(".square").length`
-  4. the text **A game you know**  <br>
-     `document.querySelector("h2").textContent`
-  5. change the player names to you & nighbor  <br>
-     `document.querySelector("#p1-name").textContent = nesrin`
-     `document.querySelector("#p2-name").textContent = ahmed`
-  6. swap the player symbols  <br>
-     `document.getElementById("p1-symbol").textContent = "O"`
-     `document.getElementById("p2-symbol").textContent = "X"`
-  7. change subtitle to **A game you know and love**  <br>
-     `document.querySelector("header h2").append("  and love")`
+**Which data type is each of these values?**
+  1. false
+    `boolean`
+  2. "true"
+    `string`
+  3. document.title
+     `string`
+  4. "some string".length
+     `number`
+  5. null
+     `object`
 
 
 

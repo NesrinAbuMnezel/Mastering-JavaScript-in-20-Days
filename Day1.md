@@ -13,7 +13,7 @@
   - online playground e.g. CodePen, CodeSandbox.
 ## DOM 
 Document Object Model it's a built in object in JS that represents the whole document.
-### Finding Elements in a Web Page:
+* **Finding Elements in a Web Page:**
 - `document.title` : the page (document) title
 - `document.body` : the body element
 - `document.body.children` : all the elements within the body
@@ -29,7 +29,7 @@ Document Object Model it's a built in object in JS that represents the whole doc
 
 
 
-### Coding Examples
+## Coding Examples
 **Type commands in the console to retrieve**
   1. all the `p` elements <br>
     `document.getElementsByTagName("p")`

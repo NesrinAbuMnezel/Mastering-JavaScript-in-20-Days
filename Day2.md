@@ -62,7 +62,7 @@
   - A statement "tells" JS to do something (e.g. declare/assign a variable)
  
 
-### Coding Examples
+## Coding Examples
 **Which data type is each of these values?**
   1. false
     `boolean`

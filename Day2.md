@@ -51,8 +51,8 @@ What will be the output of each console.log statement? **_You MUST explain WHY_*
 
 #### My Solution
 ```
-true  //compare the value
-false //compare the value and data type
+true  // compare the value
+false // compare the value and data type
 true  // the first ! convert string to boolean the second one ! invert the false to true
 ```
 
@@ -71,7 +71,7 @@ What will be the output of this expression? **_You MUST explain the steps of eva
 
 #### My Solution
 ```
-39 //here the priority for multiplication, so 5 * "7" , JS trying to convert to "7" to number (Implicit Conversion) ,which give 35
+39 // here the priority for multiplication, so 5 * "7" , JS trying to convert to "7" to number (Implicit Conversion) ,which give 35
 then 35 plus 4 
 ```
 
@@ -89,9 +89,7 @@ What will be the output of this expression? **_You MUST explain the steps of eva
 
 #### My Solution
 ```
-true  //compare the value
-false //compare the value and data type
-true  // the first ! convert string to boolean the second one ! invert the false to true
+10 // here the priority for multiplication, 5 + 6 - 1 we start from left to right
 ```
 
 -------------------------------------------------------------------
@@ -112,7 +110,6 @@ What will be the output of each `console.log` statement? **_You MUST explain WHY
 ```
 true  //compare the value
 false //compare the value and data type
-true  // the first ! convert string to boolean the second one ! invert the false to true
 ```
 
 -------------------------------------------------------------------
@@ -132,7 +129,5 @@ What is the value of result? **_You MUST explain the steps of evaluation taken b
 
 #### My Solution
 ```
-true  //compare the value
-false //compare the value and data type
-true  // the first ! convert string to boolean the second one ! invert the false to true
+true  //num > 10 (Implicit Conversion) so it gives true && true || false 
 ```

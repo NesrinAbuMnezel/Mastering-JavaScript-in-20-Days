@@ -32,22 +32,37 @@ function hoistedFunction() {
 
 ## Coding Exercises
 
-### [Factorialize a Number](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/factorialize-a-number)
+###  [delieverables](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week1%20-%20javascript-from-first-steps-to-professional/day%202/tasks.md)
 
 #### My Solution
 
 
 ```javascript
-// Example 1: Variable Hoisting
-console.log(x); // Output: undefined
-var x = 10;
-console.log(x); // Output: 10
+let a = 0;
+let b = "0";
+let c = false;
+let d = "false";
 
-// Example 2: Function Hoisting
-hoistedFunction(); // Output: "Hello, World!"
+console.log(a == b);
+console.log(b === c);
+console.log(!!d);
+```
 
-function hoistedFunction() {
-  console.log("Hello, World!");
-}
+```javascript
+console.log(4 + 5 * "7");
+```
 
+```javascript
+let result = 5 + 2 * 3 - 1;
+```
+
+```javascript
+let num = "15";
+let isPositive = true;
+let result = (num > 10 && isPositive) || num < 0;
+console.log(result);
+```
+
+```javascript
+console.log(4 + 5 * "7");
 ```

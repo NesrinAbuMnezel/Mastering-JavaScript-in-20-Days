@@ -304,7 +304,7 @@ const watchList = [
 // Only change code below this line
 
 let filteredList = "";
-filteredList =watchList.filter(list=>list.imdbRating>8.0).map(movie=>{
+filteredList =watchList.filter(list=>list.imdbRating>=8.0).map(movie=>{
   return {
     title:movie.Title,
     rating:movie.imdbRating,

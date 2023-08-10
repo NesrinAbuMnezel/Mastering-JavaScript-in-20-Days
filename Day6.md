@@ -1,5 +1,5 @@
 
-# Day 6: Hoisting
+# Day 6: 
 
 This README file summarizes the JavaScript lesson on hoisting. Hoisting is a behavior in JavaScript where variable and function declarations are moved to the top of their scope during the compilation phase.
 
@@ -32,7 +32,7 @@ function hoistedFunction() {
 
 ## Coding Exercises
 
-### [Factorialize a Number](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/factorialize-a-number)
+### [Rick & Morty Characters List](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week1%20-%20javascript-from-first-steps-to-professional/day%206/task.md)
 
 #### My Solution
 

@@ -1,7 +1,14 @@
 
 # Day 3: 
 ## Arrays
+Arrays let us keep multiple values together in a single collection `let synonyms = ["plethora", "array", "cornucopia"];`
+* **mutable vs. immutable**
+  - "Mutable" data can be edited (e.g. Arrays)
+  - "Immutable" data always stays the same (e.g. strings & other primitives)
+  - Some actions "mutate" an array (e.g. oldArray.push(newValue))...aka change the array in-place
+  - Other actions do not mutate the original array, but instead create a new copy (e.g. oldArray.concat(otherArray))
 ## Objects
+Objects collect multiple values together to describe more complex data,objects let us point at related values using properties in the object.
 ## Quiz Project
 
 

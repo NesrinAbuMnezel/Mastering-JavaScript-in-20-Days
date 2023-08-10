@@ -51,9 +51,9 @@ What will be the output of each console.log statement? **_You MUST explain WHY_*
 
 #### My Solution
 ```
-true
-false
-true
+true  //compare the value
+false //compare the value and data type
+true  // the first ! convert string to boolean the second one ! invert the false to true
 ```
 
 -------------------------------------------------------------------

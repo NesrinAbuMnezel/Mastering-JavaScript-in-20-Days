@@ -5,7 +5,7 @@
   - chunks of information we want to work with
   - that information (data) can be of different types
 * **typeof**
-  - tells you the type of a value
+  - it's an operator tells you the type of a value
 * **JS has two kinds of data:**
   - Primitive types (e.g. strings, numbers)
   - Objects (e.g. document & friends)

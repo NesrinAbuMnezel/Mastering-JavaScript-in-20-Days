@@ -36,7 +36,7 @@
     console.log("clicked")
     });
     ```
- * **  `.addEventListener()` takes 2 parameters:**
+ * ** .addEventListener() takes 2 parameters:**
    - The name of the event to listen to (e.g. "click")
    - A handler function that JS calls when that event is fired on this element
    - JS passes an event object to the handler function with information about the event

@@ -14,7 +14,7 @@ Objects collect multiple values together to describe more complex data,objects l
   - console
   - Math
 ## Quiz Project
-### [Quiz Project](https://github.com/NesrinAbuMnezel/quiz)
+### [Quiz Project](https://github.com/NesrinAbuMnezel/quiz/blob/main/index.html)
 
 
 ## Coding Examples

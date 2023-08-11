@@ -26,7 +26,7 @@
    - We can use it to put all the items from one array inside another array
    - We can also use it to pass all the items from an array as arguments to a function or method
 ## Doggos Quiz Game
-### [Doggos Quiz Game](https://github.com/NesrinAbuMnezel/quiz2)
+### [Doggos Quiz Game](https://github.com/NesrinAbuMnezel/quiz2/blob/main/index.html)
 * **while loops**
   - run a chunk of code over & over if a (condition) is true
   - Don't use while (true)

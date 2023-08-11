@@ -99,4 +99,5 @@ This tells JS to expect to await async operations inside the function
 
 #### My Solution
 ### [Rick & Morty Characters List](https://github.com/NesrinAbuMnezel/Rick-Morty-)
+![image](https://github.com/NesrinAbuMnezel/img/blob/main/Capture.PNG)
 

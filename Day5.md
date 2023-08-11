@@ -26,19 +26,16 @@
    - We can use it to put all the items from one array inside another array
    - We can also use it to pass all the items from an array as arguments to a function or method
 ## Doggos Quiz Game
- 
+* **while loops**
+  - run a chunk of code over & over if a (condition) is true
+  - Don't use while (true)
+* **Some things that take time: (asynchronously)**
+  - Waiting for user events
+  - Asking a user to pick a file
+  - Getting permission to access the camera/mic
+  - Loading data from the interwebs
+   
 
-## Quiz Project Functions
-* **Functions**
-  - values are things
-  - variables point to things
-  - functions do things
-  - declaring (creating) a function:
-    ```javascript
-    function half(x) {
-    return x / 2;
-    }
-    ```
 
 
   
@@ -49,20 +46,18 @@
 
 ## Coding Examples
 
-```javascript
-let globalVariable = "I live in global scope"; 
-function narrowerScope() {
-    console.log(globalVariable);
-    let localVariable = "I live in the function scope";
-}
-narrowerScope();
-console.log(localVariable);
-```
-```javascript
-output:
-I live in global scope
-Uncaught ReferenceError: localVariable is not defined
-```
+    ```javascript
+    console.log("This will print first");
+    setTimeout(() => console.log("This will print third"), 1000);
+    console.log("This will print second");
+    ```
+    output:
+    ```javascript
+    This will print first
+    This will print second
+    This will print third
+    ```
+
 
 
 

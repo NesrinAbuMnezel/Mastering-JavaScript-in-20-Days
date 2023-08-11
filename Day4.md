@@ -1,9 +1,56 @@
 
 # Day 4: 
 ## Quiz Project Functions
+* **Functions**
+  - values are things
+  - variables point to things
+  - functions do things
+  - declaring (creating) a function:
+    ```
+    function half(x) {
+    return x / 2;
+    }
+    ```
+  - calling (using) a function:
+    ```
+    const one = half(2);
+    ```
+  - Parameters & Arguments
+    ```
+    function add(x, y) { // Parameters
+    return x + y;
+    }
+    add(2,3);   // Arguments
+    ```
+ * **Arrow functions**
+  - The => "fat arrow" lets us create an unnamed function without much code `(x, y) => x + y`
+  - For one-parameter functions, parentheses are optional `x => x*x` => `(x) => x*x`
+  
 ## Events & Handlers
 
- 
+
+
+
+
+## Coding Examples
+
+```javascript
+let globalVariable = "I live in global scope"; 
+function narrowerScope() {
+    console.log(globalVariable);
+    let localVariable = "I live in the function scope";
+}
+narrowerScope();
+console.log(localVariable);
+```
+```
+output:
+I live in global scope
+Uncaught ReferenceError: localVariable is not defined
+```
+
+
+
 
 ## Coding Examples
 

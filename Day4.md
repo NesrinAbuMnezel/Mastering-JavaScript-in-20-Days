@@ -23,8 +23,8 @@
     add(2,3);   // Arguments
     ```
  * **Arrow functions**
-  - The => "fat arrow" lets us create an unnamed function without much code `(x, y) => x + y`
-  - For one-parameter functions, parentheses are optional `x => x*x` => `(x) => x*x`
+   - The => "fat arrow" lets us create an unnamed function without much code `(x, y) => x + y`
+   - For one-parameter functions, parentheses are optional `x => x*x` => `(x) => x*x`
   
 ## Events & Handlers
  * **Arrow functions**

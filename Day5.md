@@ -46,17 +46,18 @@
 
 ## Coding Examples
 
-    ```javascript
+  ```javascript
     console.log("This will print first");
     setTimeout(() => console.log("This will print third"), 1000);
     console.log("This will print second");
-    ```
+  ```
+  
+   ```javascript
     output:
-    ```javascript
     This will print first
     This will print second
     This will print third
-    ```
+   ```
 
 
 

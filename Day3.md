@@ -14,9 +14,23 @@ Objects collect multiple values together to describe more complex data,objects l
   - console
   - Math
 ## Quiz Project
+### [Quiz Project](https://github.com/NesrinAbuMnezel/quiz)
 
 
 ## Coding Examples
+
+```javascript
+const js = {
+    name: "JavaScript",
+    abbreviation: "JS",
+    isAwesome: true,
+    officialSpec: "ECMAScript",
+    birthYear: 1995,
+    creator: "Brendan Eich"
+};
+js.name      // 'JavaScript'
+js.isAwesome // true
+```
 
 
 

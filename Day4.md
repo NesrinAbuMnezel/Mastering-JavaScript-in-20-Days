@@ -6,17 +6,17 @@
   - variables point to things
   - functions do things
   - declaring (creating) a function:
-    ```
+    ```javascript
     function half(x) {
     return x / 2;
     }
     ```
   - calling (using) a function:
-    ```
+    ```javascript
     const one = half(2);
     ```
   - Parameters & Arguments
-    ```
+    ```javascript
     function add(x, y) { // Parameters
     return x + y;
     }
@@ -31,7 +31,7 @@
   - The web browser fires events when certain things happen on the page
   - We can detect events with JS using an event listener
   - The ` .addEventListener() ` method lets us listen for events on a DOM element
-    ```
+    ```javascript
     document.addEventListener("click", () => {
     console.log("clicked")
     });

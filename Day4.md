@@ -45,7 +45,7 @@
   - "dblclick"
   - "mouseover"
   - "mouseout"
-* **"Loops**
+* **Loops**
   - Loops let us run the same chunk of code multiple times
   - for loops require us to:
      - declare & initialize a loop counter

@@ -50,7 +50,7 @@
   - Variables let us remember values
   - Declaring a variable `let bankruptcy;`
   - Assigning a variable
-     ```
+     ```javascript
      let myDeclaredVariable;
       myDeclaredVariable = "so value, much wow";
      ```
@@ -96,7 +96,7 @@ console.log(!!d);
 What will be the output of each console.log statement? **_You MUST explain WHY_**.
 
 #### My Solution
-```
+```javascript
 true  // compare the value
 false // compare the value and data type
 true  // the first ! convert string to boolean the second one ! invert the false to true
@@ -116,7 +116,7 @@ console.log(4 + 5 * "7");
 What will be the output of this expression? **_You MUST explain the steps of evaluation taken by JS_**.
 
 #### My Solution
-```
+```javascript
 39 // here the priority for multiplication, so 5 * "7" , JS trying to convert to "7" to number (Implicit Conversion) ,which give 35
 then 35 plus 4 
 ```
@@ -134,7 +134,7 @@ let result = 5 + 2 * 3 - 1;
 What will be the output of this expression? **_You MUST explain the steps of evaluation taken by JS_**.
 
 #### My Solution
-```
+```javascript
 10 // here the priority for multiplication, 5 + 6 - 1 we start from left to right
 ```
 
@@ -153,7 +153,7 @@ console.log(x === y);
 What will be the output of each `console.log` statement? **_You MUST explain WHY_**.
 
 #### My Solution
-```
+```javascript
 true  // compare the value
 false // compare the value and data type
 ```
@@ -174,6 +174,6 @@ console.log(result);
 What is the value of result? **_You MUST explain the steps of evaluation taken by JS_**
 
 #### My Solution
-```
+```javascript
 true  // num > 10 (Implicit Conversion) so it gives true && true || false 
 ```

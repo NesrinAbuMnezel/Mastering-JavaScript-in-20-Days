@@ -36,7 +36,7 @@
     console.log("clicked")
     });
     ```
- * ** .addEventListener() takes 2 parameters:**
+ * **addEventListener() takes 2 parameters:**
    - The name of the event to listen to (e.g. "click")
    - A handler function that JS calls when that event is fired on this element
    - JS passes an event object to the handler function with information about the event
@@ -52,16 +52,16 @@
      - give a condition for the loop to keep running
      - describe how to change (usually increment) the counter each time
  * **for ... of loops**
-  - let us more easily iterate over items in a collection
-  - We can use for...of to iterate over characters in a string or items in an array because strings & arrays are "iterables"
- * map & filter**
-  - The map & filter methods  let us process all the items in an array
-  - map calls a function on each item in an array to create a new array
-  - filter calls a true/false function on each item and creates a new array with only the items where the function returns true
- * Spread (...)**
-  - It lets us take all the items in an array and spread 'em around
-  - We can use it to put all the items from one array inside another array
-  - We can also use it to pass all the items from an array as arguments to a function or method
+   - let us more easily iterate over items in a collection
+   - We can use for...of to iterate over characters in a string or items in an array because strings & arrays are "iterables"
+ * **map & filter**
+   - The map & filter methods  let us process all the items in an array
+   - map calls a function on each item in an array to create a new array
+   - filter calls a true/false function on each item and creates a new array with only the items where the function returns true
+ * **Spread (...)**
+   - It lets us take all the items in an array and spread 'em around
+   - We can use it to put all the items from one array inside another array
+   - We can also use it to pass all the items from an array as arguments to a function or method
 
 
 

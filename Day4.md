@@ -28,19 +28,19 @@
   
 ## Events & Handlers
  * **Arrow functions**
-  - The web browser fires events when certain things happen on the page
-  - We can detect events with JS using an event listener
-  - The ` .addEventListener() ` method lets us listen for events on a DOM element
+   - The web browser fires events when certain things happen on the page
+   - We can detect events with JS using an event listener
+   - The ` .addEventListener() ` method lets us listen for events on a DOM element
     ```javascript
     document.addEventListener("click", () => {
     console.log("clicked")
     });
     ```
  * ** `.addEventListener()` takes 2 parameters:**
-  - The name of the event to listen to (e.g. "click")
-  - A handler function that JS calls when that event is fired on this element
-  - JS passes an event object to the handler function with information about the event
-  - `event.target` is the element the event fired on
+   - The name of the event to listen to (e.g. "click")
+   - A handler function that JS calls when that event is fired on this element
+   - JS passes an event object to the handler function with information about the event
+   - `event.target` is the element the event fired on
 * **"click" isn't the only type of event we can handle**
   - "dblclick"
   - "mouseover"

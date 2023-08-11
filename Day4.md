@@ -76,7 +76,7 @@ function narrowerScope() {
 narrowerScope();
 console.log(localVariable);
 ```
-```
+```javascript
 output:
 I live in global scope
 Uncaught ReferenceError: localVariable is not defined

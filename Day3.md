@@ -9,6 +9,10 @@ Arrays let us keep multiple values together in a single collection `let synonyms
   - Other actions do not mutate the original array, but instead create a new copy (e.g. oldArray.concat(otherArray))
 ## Objects
 Objects collect multiple values together to describe more complex data,objects let us point at related values using properties in the object.
+* **Built in objects**
+  - document
+  - console
+  - Math
 ## Quiz Project
 
 

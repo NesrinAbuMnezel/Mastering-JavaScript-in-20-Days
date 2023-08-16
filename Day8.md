@@ -59,7 +59,7 @@
       ![2](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/2c823f1e-0d98-4d25-90f8-c799f59c5f54)
 
 * **The bond**
-  -When a function is defined, it gets a bond to the surrounding Local Memory(“Variable Environment”) in which it has been defined
+  - When a function is defined, it gets a bond to the surrounding Local Memory(“Variable Environment”) in which it has been defined
 * **The ‘backpack’**
   - We return incrementCounter’s code (function definition) out of outer into global and give it a new name - myNewFunction
   - We maintain the bond to outer’s live local memory - it gets ‘returned out’ attached on the back of incrementCounter’s function definition.

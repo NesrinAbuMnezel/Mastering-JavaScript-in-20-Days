@@ -24,7 +24,7 @@
     
     ```
      ![Capture](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/5868ec25-9278-4e26-8654-993370b2e0e4)
-     ![Capture1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/ba67cfa3-32da-4e28-a30a-10f485d0c56a)
+     ![Capture1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/ba67cfa3-32da-4e28-a30a10f485d0c56a)
 
 ## Functions & Callbacks
 * **Arithmetic operators**

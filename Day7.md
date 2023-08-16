@@ -12,6 +12,7 @@
   - Run a function - add to call stack
   - Finish running the function - JS removes it from call stack
   - Whatever is top of the call stack - that’s the function we’re currently running
+    </br>
     ```javascript
     const num = 3;
     function multiplyBy2 (inputNumber){

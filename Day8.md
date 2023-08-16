@@ -54,7 +54,7 @@
 
 
     ```
-     ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/951d8346-34c9-49d6-98c9-f74ed57614c3)
+     ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/8b9f87f9-564f-4130-bf58-d60d3fd2279e)
 
      ![2](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/2c823f1e-0d98-4d25-90f8-c799f59c5f54)
 

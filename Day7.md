@@ -114,6 +114,7 @@ const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]);
 console.log(squaredIntegers);
 
 ```
+-------------------------------------------------------------------
 
 ### [Apply Functional Programming to Convert Strings to URL Slugs](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/apply-functional-programming-to-convert-strings-to-url-slugs)
 
@@ -133,6 +134,7 @@ return title
 urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone");
 
 ```
+-------------------------------------------------------------------
 
 ### Functions and Callbacks
 
@@ -150,6 +152,7 @@ The final result should be returned as a Promise.
 ```
 
 
+-------------------------------------------------------------------
 
 ### Call Stack and Recursion
 

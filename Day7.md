@@ -32,11 +32,31 @@
      
 
 ## Functions & Callbacks
-* **Arithmetic operators**
-  - `+` add
-  - `-` subtract
-  - `*` multiply
-  - `/` divide
+* **Generalizing functions**
+  - We may not want to decide exactly what some of our functionality is until we run our function
+  - ‘Parameters’ (placeholders) mean we don’t need to decide what data to run our functionality on until we run the function
+      then provide an actual value (‘argument’) when we run the function
+   ```javascript
+    
+     function copyArrayAndMultiplyBy2(array) {
+     const output = [];
+     for (let i = 0; i < array.length; i++) {
+     output.push(array[i] * 2);
+     }
+     return output;
+     }
+    const myArray = [1,2,3];
+    const result = copyArrayAndMultiplyBy2(myArray);
+    
+    ```
+   ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/56d43be8-ef95-4307-837c-6a7cb37d9b42)
+
+   ![2](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/94281c20-25fc-4bd8-8481-4eb637db7254)
+  
+
+
+
+   
 * **Comparison operators**
   - `>` greater than
   - `<` less than

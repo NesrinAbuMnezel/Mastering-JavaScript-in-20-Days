@@ -25,38 +25,38 @@
       ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/6f718155-3c12-4c8c-9b5b-a7a085cb4f9f)
 
 
-   ```javascript
+    ```javascript
 
     function outer (){
-   let counter = 0;
-   function incrementCounter (){
-   counter ++;
-   }
-   incrementCounter();
-  }
-  outer();
+     let counter = 0;
+     function incrementCounter (){
+     counter ++;
+     }
+     incrementCounter();
+    }
+    outer();
 
     ```
-     ![2](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/cfea4d1b-1235-4aef-a7a7-91d94ecd3d53)
+       ![2](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/cfea4d1b-1235-4aef-a7a7-91d94ecd3d53)
 
-     ![3](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/4ac97ee8-6049-42a4-be1b-a5d18cde1cdd)
+       ![3](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/4ac97ee8-6049-42a4-be1b-a5d18cde1cdd)
 
-   ```javascript
+     ```javascript
 
-   function outer (){
-   let counter = 0;
-   function incrementCounter (){ counter ++; }
-   return incrementCounter;
-  }
-  const myNewFunction = outer();
-  myNewFunction();
-  myNewFunction();
+     function outer (){
+     let counter = 0;
+     function incrementCounter (){ counter ++; }
+     return incrementCounter;
+    }
+    const myNewFunction = outer();
+    myNewFunction();
+    myNewFunction();
 
 
     ```
-     ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/8b9f87f9-564f-4130-bf58-d60d3fd2279e)
+      ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/8b9f87f9-564f-4130-bf58-d60d3fd2279e)
 
-     ![2](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/2c823f1e-0d98-4d25-90f8-c799f59c5f54)
+      ![2](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/2c823f1e-0d98-4d25-90f8-c799f59c5f54)
 
 * **The bond**
   -When a function is defined, it gets a bond to the surrounding Local Memory(“Variable Environment”) in which it has been defined

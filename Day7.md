@@ -148,7 +148,47 @@ The final result should be returned as a Promise.
 
 
 ```javascript
+let mapAsync=(array, callbackFun)=> {
+    const promise = new Promise((resolve, reject) => {
+        let newArray = [];
+        let counter = 0;
+        if (array.length == 0) {
+            resolve(newArray);
+            return ;
+        }else{
+        array.forEach((item,i) => {
+            callbackFun(item)
+                .then(Item => {
+                    newArray[i] = Item;
+                    counter++;
+                    if (counter ==array.length) {
+                        resolve(newArray);
+                    }
+                })
+                .catch(err => {
+                    reject(err);
+                });
+        });
+    }
+    });
+    return promise;
+}
 
+let arr = [2,7,9];
+let callback=  async(input) => {
+    return input + 1;
+};
+
+    mapAsync(arr,callback)
+  .then(data => {
+    console.log(`New Array= ${data}`);
+  })
+  .catch(err => {
+    console.error(`Error happened :'( ${err}`);
+  })
+  .finally(() => {
+    console.log("Everything is done!");
+  });
 ```
 
 
@@ -159,12 +199,13 @@ The final result should be returned as a Promise.
 Write a JavaScript function called sumRange that calculates the sum of all integers in a given range. 
 The function should use recursion to handle the calculation and demonstrate understanding of the call stack.
 
-
-
-
 #### My Solution
 ```javascript
-
+let sumRange=(start,end)=> {
+   return  (start >end )?  0 :  start + sumRange(start + 1, end);
+    }
+    let sum = sumRange(2,8);
+    console.log(sum); 
 ```
 
 

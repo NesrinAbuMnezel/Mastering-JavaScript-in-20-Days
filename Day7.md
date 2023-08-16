@@ -5,7 +5,7 @@
   - Goes through the code line-by-line and runs/ ’executes’each line - known as the **thread of execution**
   - Saves ‘data’ like strings and arrays so we can use that data later - in its **memory**
 * **Execution context**
-  - Created to run the code of a function ```<br>```
+  - Created to run the code of a function 
   - has 2 parts : Thread of execution , Memory
 * **Call stack**
   - JavaScript keeps track of what function is currently running (where’s the thread of execution)

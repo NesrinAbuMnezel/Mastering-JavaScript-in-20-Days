@@ -22,7 +22,7 @@
    
     
     ```
-  ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/6f718155-3c12-4c8c-9b5b-a7a085cb4f9f)
+      ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/6f718155-3c12-4c8c-9b5b-a7a085cb4f9f)
 
 
      

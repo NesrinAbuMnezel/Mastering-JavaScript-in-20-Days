@@ -35,6 +35,15 @@ In this challenge, i will enhance my JavaScript skills and knowledge. Each day, 
 - [Use the filter Method to Extract Data from an Array](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-the-filter-method-to-extract-data-from-an-array)
 - [Golf Code](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/golf-code)
 - [Rick & Morty Characters List](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week1%20-%20javascript-from-first-steps-to-professional/day%206/task.md)
+- [Use Higher-Order Functions map, filter, or reduce to Solve a Complex Problem](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-higher-order-functions-map-filter-or-reduce-to-solve-a-complex-problem)
+- [Apply Functional Programming to Convert Strings to URL Slugs](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/apply-functional-programming-to-convert-strings-to-url-slugs)
+- [Exercises for functions and callbacks	](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%201/tasks.md)
+- [Exercises for closures	](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%202/tasks.md)
+- [Exercises for Async JS & Promises](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%203/tasks.md)
+- [Object Oriented Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#object-oriented-programming)
+- [ES6](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
+- [Debugging](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
+- [Functional Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#functional-programming)
 
 
 
@@ -60,3 +69,7 @@ In this challenge, i will enhance my JavaScript skills and knowledge. Each day, 
 -  [**Day 4**](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/blob/main/Day4.md)
 -  [**Day 5**](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/blob/main/Day5.md)
 -  [**Day 6**](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/blob/main/Day6.md)
+-  [**Day 7**](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/blob/main/Day7.md)
+-  [**Day 8**](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/blob/main/Day8.md)
+-  [**Day 9**](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/blob/main/Day9.md)
+-  [**Day 10**](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/blob/main/Day10.md)

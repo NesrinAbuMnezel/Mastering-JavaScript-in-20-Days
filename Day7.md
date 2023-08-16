@@ -53,7 +53,25 @@
 
    ![2](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/94281c20-25fc-4bd8-8481-4eb637db7254)
   
+    What if want to copy array and divide by 2? Or add 3?
+    We could generalize our function - So we pass in our specific instruction only when we run copyArrayAndManipulate !
+  ```javascript
+    
+     function copyArrayAndManipulate(array, instructions) {
+     const output = [];
+     for (let i = 0; i < array.length; i++) {
+     output.push(instructions(array[i]));
+     }
+     return output;
+    }
+    function multiplyBy2(input) { return input * 2; }
+    const result = copyArrayAndManipulate([1, 2, 3], multiplyBy2);
+    
+    ```
+     ![4](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/edb436a8-a61b-4d8a-acec-e99aeba12079)
 
+
+    ![3](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/99e8c839-e1ac-4a9b-b7fb-484262f08a95)
 
 
    

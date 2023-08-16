@@ -1,7 +1,7 @@
 
 # Day 8: 
 ## Closures
-* ****
+* **Closure**
   - Functions get a new memory every run/invocation
   - When our functions get called, we create a live store of data (local memory/variable environment/state) for that function’s execution context.
   - When the function finishes executing, its local memory is deleted (except the returned value)

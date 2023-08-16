@@ -100,7 +100,7 @@ function createCounter(start){
     return increment
 }
 let result=createCounter(1);
-console.log(result)
+result()
 
 ```
 
@@ -120,7 +120,7 @@ const  calculateAverage = (nums)=>{
     return average
 }
 let result=calculateAverage([1,2,3]);
-console.log(result)
+result()
 
 ```
 -------------------------------------------------------------------
@@ -134,7 +134,7 @@ Write a closure named powerOf that takes a base number base and returns a functi
 
 
 ```javascript
-const  powerOf = (base)=>{
+let  powerOf = (base)=>{
     let exponent = (exp)=> base**exp
     return exponent
 }
@@ -152,6 +152,10 @@ Write a closure named compose that takes multiple functions as arguments and ret
 
 
 ```javascript
+function compose(...functions){
+let reverseOrder =()=> functions.reduceRight((c,v)=>c(v))
+    return reverseOrder
+} 
 
 ```
 

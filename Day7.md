@@ -1,5 +1,5 @@
 
-# Day 10: 
+# Day 7: 
 ## JavaScript Principles
 * **Values**
   - chunks of information we want to work with

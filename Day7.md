@@ -11,8 +11,9 @@
   - JavaScript keeps track of what function is currently running (where’s the thread of execution)
   - Run a function - add to call stack
   - Finish running the function - JS removes it from call stack
-  - Whatever is top of the call stack - that’s the function we’re currently running <br>
+  - Whatever is top of the call stack - that’s the function we’re currently running 
     ```javascript
+    
     const num = 3;
     function multiplyBy2 (inputNumber){
     const result = inputNumber*2;
@@ -20,6 +21,7 @@
     }
     const output = multiplyBy2(num);
     const newOutput = multiplyBy2(10);
+    
     ```
      ![Capture](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/5868ec25-9278-4e26-8654-993370b2e0e4)
 

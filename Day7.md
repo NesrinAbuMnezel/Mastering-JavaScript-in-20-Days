@@ -75,29 +75,23 @@
 
 
    
-* **Comparison operators**
-  - `>` greater than
-  - `<` less than
-  - `>=` greater than or equal to
-  - `<=` less than or equal to
-* **Equality operators**
-  - `===` equals (strict)
-  - `==`  equals (loosey-goosey)
-  - `!==` does not equal (strict)
-  - `!=`  does not equal (loosey-goosey)
-
-## Coding Examples
-**Which data type is each of these values?**
-  1. false
-    `boolean`
-  2. "true"
-    `string`
-  3. document.title
-     `string`
-  4. "some string".length
-     `number`
-  5. null
-     `object`
+* **first class objects**
+  - Functions in javascript = first class objects
+  - They can co-exist with and can be treated like any other javascript object
+      - Assigned to variables and properties of other objects
+      - Passed as arguments into functions
+      - Returned as values from functions
+* **Higher Order Function?**
+  - The outer function that takes in a function is our higher-order function
+  - Takes in a function or passes out a function
+* **Callback Function**
+  - The function we insert is our callback function
+* **Callbacks and Higher Order Functions simplify our code and keep it DRY**
+  - Declarative readable code: Map, filter, reduce - the most readable way to write code to work with data
+  - Asynchronous JavaScript: Callbacks are a core aspect of async JavaScript, and are under-the-hood of promises, async/await
+* **Anonymous and arrow functions**
+  - Improve immediate legibility of the code
+  - Understanding how they’re working under-the-hood is vital to avoid confusion
 
 
 ## Coding Exercises

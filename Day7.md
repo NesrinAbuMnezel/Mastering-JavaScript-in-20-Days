@@ -26,7 +26,8 @@
      ![Capture](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/5868ec25-9278-4e26-8654-993370b2e0e4)
     
 
-     ![Capture1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/ef5c6f4c-14a8-4321-83f7f1ae27619638)
+    ![Capture1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/c73749a0-2776-4ced-9af6-450e0fa4d83a)
+
 
      
 

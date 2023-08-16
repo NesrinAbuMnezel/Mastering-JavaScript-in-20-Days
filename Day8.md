@@ -1,97 +1,25 @@
 
 # Day 8: 
 ## Closures
-* **When JavaScript code runs, it:**
-  - Goes through the code line-by-line and runs/ ’executes’each line - known as the **thread of execution**
-  - Saves ‘data’ like strings and arrays so we can use that data later - in its **memory**
-* **Execution context**
-  - Created to run the code of a function
-  - has 2 parts : Thread of execution , Memory
-* **Call stack**
-  - JavaScript keeps track of what function is currently running (where’s the thread of execution)
-  - Run a function - add to call stack
-  - Finish running the function - JS removes it from call stack
-  - Whatever is top of the call stack - that’s the function we’re currently running 
+* ****
+  - Functions get a new memory every run/invocation
+  - When our functions get called, we create a live store of data (local memory/variable environment/state) for that function’s execution context.
+  - When the function finishes executing, its local memory is deleted (except the returned value)
+  - But what if our functions could hold on to live data between executions?
+  - This would let our function definitions have an associated cache/persistent memory
+  - But it all starts with us returning a function from another function
+
     ```javascript
     
-    const num = 3;
-    function multiplyBy2 (inputNumber){
-    const result = inputNumber*2;
-    return result;
-    }
-    const output = multiplyBy2(num);
-    const newOutput = multiplyBy2(10);
+   
     
     ```
-     ![Capture](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/5868ec25-9278-4e26-8654-993370b2e0e4)
-    
-
-    ![Capture1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/c73749a0-2776-4ced-9af6-450e0fa4d83a)
-
+  
 
      
 
 ## Async JS 
-* **Generalizing functions**
-  - We may not want to decide exactly what some of our functionality is until we run our function
-  - ‘Parameters’ (placeholders) mean we don’t need to decide what data to run our functionality on until we run the function
-      then provide an actual value (‘argument’) when we run the function
-   ```javascript
-    
-     function copyArrayAndMultiplyBy2(array) {
-     const output = [];
-     for (let i = 0; i < array.length; i++) {
-     output.push(array[i] * 2);
-     }
-     return output;
-     }
-    const myArray = [1,2,3];
-    const result = copyArrayAndMultiplyBy2(myArray);
-    
-    ```
-   ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/56d43be8-ef95-4307-837c-6a7cb37d9b42)
 
-   ![2](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/94281c20-25fc-4bd8-8481-4eb637db7254)
-  
-    What if want to copy array and divide by 2? Or add 3?
-    We could generalize our function - So we pass in our specific instruction only when we run copyArrayAndManipulate !
-  ```javascript
-    
-     function copyArrayAndManipulate(array, instructions) {
-     const output = [];
-     for (let i = 0; i < array.length; i++) {
-     output.push(instructions(array[i]));
-     }
-     return output;
-    }
-    function multiplyBy2(input) { return input * 2; }
-    const result = copyArrayAndManipulate([1, 2, 3], multiplyBy2);
-    
-    ```
-     ![4](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/edb436a8-a61b-4d8a-acec-e99aeba12079)
-
-
-    ![3](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/99e8c839-e1ac-4a9b-b7fb-484262f08a95)
-
-
-   
-* **first class objects**
-  - Functions in javascript = first class objects
-  - They can co-exist with and can be treated like any other javascript object
-      - Assigned to variables and properties of other objects
-      - Passed as arguments into functions
-      - Returned as values from functions
-* **Higher Order Function?**
-  - The outer function that takes in a function is our higher-order function
-  - Takes in a function or passes out a function
-* **Callback Function**
-  - The function we insert is our callback function
-* **Callbacks and Higher Order Functions simplify our code and keep it DRY**
-  - Declarative readable code: Map, filter, reduce - the most readable way to write code to work with data
-  - Asynchronous JavaScript: Callbacks are a core aspect of async JavaScript, and are under-the-hood of promises, async/await
-* **Anonymous and arrow functions**
-  - Improve immediate legibility of the code
-  - Understanding how they’re working under-the-hood is vital to avoid confusion
 
 
 ## Coding Exercises
@@ -106,6 +34,14 @@ Write a closure named createCounter that takes an initial value start and return
 
 
 ```javascript
+function createCounter(start){
+    let counter =0 ;
+    let increment=()=>counter++;
+    
+    return increment
+}
+let result=createCounter(1);
+console.log(result)
 
 ```
 
@@ -120,6 +56,12 @@ Write a closure named calculateAverage that takes an array of numbers, nums, and
 
 #### My Solution
 ```javascript
+const  calculateAverage = (nums)=>{
+    let average = ()=> nums.reduce((sum,num)=>sum+num,0)/nums.length
+    return average
+}
+let result=calculateAverage([1,2,3]);
+console.log(result)
 
 ```
 -------------------------------------------------------------------
@@ -133,6 +75,10 @@ Write a closure named powerOf that takes a base number base and returns a functi
 
 
 ```javascript
+const  powerOf = (base)=>{
+    let exponent = (exp)=> base**exp
+    return exponent
+}
 
 ```
 

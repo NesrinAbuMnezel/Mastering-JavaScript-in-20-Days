@@ -40,10 +40,10 @@ In this challenge, i will enhance my JavaScript skills and knowledge. Each day, 
 - [Exercises for functions and callbacks	](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%201/tasks.md)
 - [Exercises for closures	](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%202/tasks.md)
 - [Exercises for Async JS & Promises](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%203/tasks.md)
-- [Object Oriented Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#object-oriented-programming)
-- [ES6](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
-- [Debugging](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
-- [Functional Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#functional-programming)
+- [Object Oriented Programming challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#object-oriented-programming)
+- [ES6 challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
+- [Debugging challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
+- [Functional Programming challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#functional-programming)
 
 
 

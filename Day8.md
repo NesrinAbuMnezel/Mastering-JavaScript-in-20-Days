@@ -10,11 +10,20 @@
     but it all starts with us returning a function from another function
 
     ```javascript
-    
+
+    function createFunction() {
+     function multiplyBy2 (num){
+     return num*2;
+     }
+     return multiplyBy2;
+    }
+    const generatedFunc = createFunction();
+    const result = generatedFunc(3); // 6
    
     
     ```
-  
+  ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/6f718155-3c12-4c8c-9b5b-a7a085cb4f9f)
+
 
      
 

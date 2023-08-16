@@ -6,8 +6,8 @@
   - When our functions get called, we create a live store of data (local memory/variable environment/state) for that function’s execution context.
   - When the function finishes executing, its local memory is deleted (except the returned value)
   - But what if our functions could hold on to live data between executions?
-  - This would let our function definitions have an associated cache/persistent memory
-  - But it all starts with us returning a function from another function
+    this would let our function definitions have an associated cache/persistent memory
+    but it all starts with us returning a function from another function
 
     ```javascript
     

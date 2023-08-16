@@ -25,8 +25,41 @@
       ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/6f718155-3c12-4c8c-9b5b-a7a085cb4f9f)
 
 
-     
+   ```javascript
 
+    function outer (){
+   let counter = 0;
+   function incrementCounter (){
+   counter ++;
+   }
+   incrementCounter();
+  }
+  outer();
+
+    ```
+     ![2](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/cfea4d1b-1235-4aef-a7a7-91d94ecd3d53)
+
+     ![3](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/4ac97ee8-6049-42a4-be1b-a5d18cde1cdd)
+
+   ```javascript
+
+   function outer (){
+   let counter = 0;
+   function incrementCounter (){ counter ++; }
+   return incrementCounter;
+  }
+  const myNewFunction = outer();
+  myNewFunction();
+  myNewFunction();
+
+
+    ```
+     ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/951d8346-34c9-49d6-98c9-f74ed57614c3)
+
+     ![2](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/2c823f1e-0d98-4d25-90f8-c799f59c5f54)
+
+
+     
 ## Async JS 
 
 

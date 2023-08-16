@@ -58,7 +58,24 @@
 
      ![2](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/2c823f1e-0d98-4d25-90f8-c799f59c5f54)
 
-
+* **The bond**
+  -When a function is defined, it gets a bond to the surrounding Local Memory(“Variable Environment”) in which it has been defined
+* **The ‘backpack’**
+  - We return incrementCounter’s code (function definition) out of outer into global and give it a new name - myNewFunction
+  - We maintain the bond to outer’s live local memory - it gets ‘returned out’ attached on the back of incrementCounter’s function definition.
+  - So outer’s local memory is now stored attached to myNewFunction - even though outer’s execution context is long gone
+  - When we run myNewFunction in global, it will first look in its own local memory first (as we’d expect), but then in myNewFunction’s ‘backpack’
+* **What can we call this ‘backpack’?**
+  - Closed over ‘Variable Environment’ (C.O.V.E.)
+  - Persistent Lexical Scope Referenced Data (P.L.S.R.D.)
+  - ‘Backpack’
+  - ‘Closure’
+  - The ‘backpack’ (or ‘closure’) of live data is attached incrementCounter (then to myNewFunction) through a hidden property known as [[scope]] which persists when the inner function is returned out
+* **Closure gives our functions persistent memories and entirely new toolkit for writing professional code**
+  - Helper functions: Everyday professional helper functions like ‘once’ and ‘memoize’
+  - Iterators and generators: Which use lexical scoping and closure to achieve the most contemporary patterns for handling data in JavaScript
+  - Module pattern: Preserve state for the life of an application without polluting the global namespace
+  - Asynchronous JavaScript: Callbacks and Promises rely on closure to persist state in an asynchronous environment
      
 ## Async JS 
 

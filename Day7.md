@@ -146,9 +146,7 @@ The final result should be returned as a Promise.
 
 
 ```javascript
-true  // compare the value
-false // compare the value and data type
-true  // the first ! convert string to boolean the second one ! invert the false to true
+
 ```
 
 
@@ -163,8 +161,7 @@ The function should use recursion to handle the calculation and demonstrate unde
 
 #### My Solution
 ```javascript
-39 // here the priority for multiplication, so 5 * "7" , JS trying to convert to "7" to number (Implicit Conversion) ,which give 35
-then 35 plus 4 
+
 ```
 
 -------------------------------------------------------------------

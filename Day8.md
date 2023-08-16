@@ -77,7 +77,7 @@
   - Module pattern: Preserve state for the life of an application without polluting the global namespace
   - Asynchronous JavaScript: Callbacks and Promises rely on closure to persist state in an asynchronous environment
      
-## Async JS 
+
 
 
 

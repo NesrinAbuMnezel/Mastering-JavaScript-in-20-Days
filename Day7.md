@@ -1,33 +1,28 @@
 
 # Day 7: 
 ## JavaScript Principles
-* **Values**
-  - chunks of information we want to work with
-  - that information (data) can be of different types
-* **typeof**
-  - it's an operator tells you the type of a value
-* **JS has two kinds of data:**
-  - Primitive types (e.g. strings, numbers)
-  - Objects (e.g. document & friends)
-* **Primitive data types**
-  - string
-  - number
-  - boolean
-  - undefined
-  - null
-* **Strings**
-  - strings are  made of characters
-* **indexOf**
-  - returns the index of a specific character, and if the character does not exit it returns -1
-  - returns At what index does this substring begin
-* **includes**
-  - returns if the string contain some other string
-* **startsWith**
-  - returns if the string  start with some other string
-* **+**
-  - Connecting strings together
-* **toLowerCase**
-  - returns the lowercase version of a string
+* **When JavaScript code runs, it:**
+  - Goes through the code line-by-line and runs/ ’executes’each line - known as the **thread of execution**
+  - Saves ‘data’ like strings and arrays so we can use that data later - in its **memory**
+* **Execution context**
+  - Created to run the code of a function
+  - has 2 parts : Thread of execution , Memory
+* **Call stack**
+  - JavaScript keeps track of what function is currently running (where’s the thread of execution)
+  - Run a function - add to call stack
+  - Finish running the function - JS removes it from call stack
+  - Whatever is top of the call stack - that’s the function we’re currently running
+    ```javascript
+    const num = 3;
+    function multiplyBy2 (inputNumber){
+    const result = inputNumber*2;
+    return result;
+    }
+    const output = multiplyBy2(num);
+    const newOutput = multiplyBy2(10);
+    ```
+     ![Capture](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/5868ec25-9278-4e26-8654-993370b2e0e4)
+
 ## Functions & Callbacks
 * **Arithmetic operators**
   - `+` add

@@ -187,7 +187,11 @@ user1.increment()
 
    
    ```
+
  ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/15be3952-649c-494c-ab26-2f8642916058)
+
+ ![2](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/51150d4e-79e6-439e-a5ac-3f7d140c8c89)
+
 
 ## Coding Exercises
 

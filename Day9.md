@@ -48,7 +48,8 @@
      - Web Browser APIs/Node background APIs
      - Promises
      - Event loop, Callback/Task queue and micro task queue
-       ![3](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/b9fb60dd-4a39-43a6-baf5-3f79a1c60e5f)
+       
+     ![3](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/b9fb60dd-4a39-43a6-baf5-3f79a1c60e5f)
 
      ```javascript
       function printHello(){ console.log("Hello"); }

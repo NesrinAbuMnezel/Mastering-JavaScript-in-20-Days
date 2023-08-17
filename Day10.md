@@ -64,8 +64,33 @@ user1.increment()
    ```
   ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/9563a9d5-52f1-4619-8832-2229e7ac7f1c)
 
-  **Solution 1. Generate objects using a function**
-   - Problems: Each time we create a new user we make space in our computer's memory for all our data and functions. But our functions are just copies
+**Solution 1. Generate objects using a function**
+  - Problems: Each time we create a new user we make space in our computer's memory for all our data and functions. But our functions are just copies
+**Solution 2: Using the prototype chain**
+  - Store the increment function in just one object and have the interpreter, if it doesn't find the function on user1, look up to that object to check if it's there
+  - Link user1 and functionStore so the interpreter, on not finding .increment, makes sure to check up in functionStore where it would find it
+  - Make the link with Object.create() technique
+ ```javascript
+    // Solution 2: Using the prototype chain
+  function userCreator (name, score) {
+   const newUser = Object.create(userFunctionStore);
+   newUser.name = name;
+   newUser.score = score;
+   return newUser;
+  };
+  const userFunctionStore = {
+   increment: function(){this.score++;},
+   login: function(){console.log("Logged in");}
+  };
+  const user1 = userCreator("Will", 3);
+  const user2 = userCreator("Tim", 5);
+  user1.increment();
+   
+   ```
+  ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/6c94e3fa-7bec-4b64-8e60-2267fc2267f5)
+
+
+
   
 
 

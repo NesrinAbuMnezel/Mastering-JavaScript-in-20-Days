@@ -60,9 +60,9 @@ user1.increment()
    ```
   ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/9563a9d5-52f1-4619-8832-2229e7ac7f1c)
 
-**Solution 1. Generate objects using a function**
+* **Solution 1. Generate objects using a function**
   - Problems: Each time we create a new user we make space in our computer's memory for all our data and functions. But our functions are just copies
-**Solution 2: Using the prototype chain**
+* **Solution 2: Using the prototype chain**
   - Store the increment function in just one object and have the interpreter, if it doesn't find the function on user1, look up to that object to check if it's there
   - Link user1 and functionStore so the interpreter, on not finding .increment, makes sure to check up in functionStore where it would find it
   - Make the link with Object.create() technique

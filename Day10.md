@@ -152,6 +152,43 @@ user1.increment();
    ```
 ![2](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/dfc08de1-0e81-4dc3-b4c5-19fb82471ea6)
 
+* **Solution 3 - Introducing the keyword that automates the hard work: new**
+  - When we call the function that returns an object with new in front we automate 2 things
+     - Create a new user object
+     - Return the new user object
+       
+```javascript
+  // Interlude - functions are both objects and functions 
+function multiplyBy2(num){
+ return num*2
+}
+multiplyBy2.stored = 5
+multiplyBy2(3) // 6
+multiplyBy2.stored // 5
+multiplyBy2.prototype // {}
+
+// We could use the fact that all functions have a default property `prototype` on their object version, (itself an
+object) - to replace our `functionStore` object
+
+   
+   ```
+ ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/d33cfa54-f160-4b3d-b207-85b75c35976f)
+
+```javascript
+ // The new keyword automates a lot of our manual work
+function userCreator(name, score){
+ this.name = name;
+ this.score = score;
+}
+userCreator.prototype.increment = function(){ this.score++; };
+userCreator.prototype.login = function(){ console.log("login"); };
+const user1 = new userCreator(“Eva”, 9)
+user1.increment()
+
+   
+   ```
+ ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/15be3952-649c-494c-ab26-2f8642916058)
+
 ## Coding Exercises
 
 ### [Object Oriented Programming challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#object-oriented-programming)

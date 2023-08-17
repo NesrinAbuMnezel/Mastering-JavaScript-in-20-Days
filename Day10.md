@@ -65,7 +65,7 @@ user1.increment()
   ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/9563a9d5-52f1-4619-8832-2229e7ac7f1c)
 
   **Solution 1. Generate objects using a function**
-   Problems: Each time we create a new user we make space in our computer's memory for all our data and functions. But our functions are just copies
+   -> Problems: Each time we create a new user we make space in our computer's memory for all our data and functions. But our functions are just copies
   
 
 

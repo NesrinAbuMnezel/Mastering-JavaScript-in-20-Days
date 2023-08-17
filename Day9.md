@@ -1,9 +1,26 @@
 
 # Day 9: 
 ## Async JS 
-* ****
-  - 
-  - 
+* **Promises, Async & the Event Loop**
+  - Promises - the most signficant ES6 feature
+  - Asynchronicity - the feature that makes dynamic web applications possible
+  - The event loop - JavaScript’s triage
+  - Microtask queue, Callback queue and Web Browser features (APIs)
+     ```javascript
+      //A reminder of how JavaScript executes code
+     const num = 3;
+    function multiplyBy2 (inputNumber){
+    const result = inputNumber*2;
+    return result;
+    }
+    const output = multiplyBy2(num);
+    const newOutput = multiplyBy2(10);
+   
+    ```
+     ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/001b6800-ec74-43fd-b92a-de5acb48cc94)
+
+     ![2](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/79437eb6-ea2d-4826-99a6-e1eee649a3e3)
+
 ## Promises
 * ****
   - 

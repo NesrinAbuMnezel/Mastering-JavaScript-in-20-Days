@@ -162,6 +162,43 @@ const executeInSequenceWithCBs = (tasks, callback) => {}
 ```
 #### My Solution
 ```javascript
+const task1 = (cb) => setTimeout(() => {
+  const message = "Task 1 has executed successfully!";
+  cb(message);
+}, 3000)
+
+const task2 = (cb) => setTimeout(() => {
+  const message = "Task 2 has executed successfully!";
+  cb(message);
+}, 0)
+
+const task3 = (cb) => setTimeout(() => {
+  const message = "Task 3 has executed successfully!";
+  cb(message);
+}, 1000)
+
+const task4 = (cb) => setTimeout(() => {
+  const message = "Task 4 has executed successfully!";
+  cb(message);
+}, 2000)
+
+const task5 = (cb) => setTimeout(() => {
+  const message = "Task 5 has executed successfully!";
+  cb(message);
+}, 4000)
+
+const asyncTasks = [task1, task2, task3, task4, task5];
+
+ const executeInSequenceWithCBs = async (tasks, callback) => {
+   let promise = tasks.map((task) => task(callback));
+   let result = await Promise.all(promise);
+   callback(result);
+   return result;
+ };
+
+ executeInSequenceWithCBs(asyncTasks, msg => {
+   console.log(msg);
+ });
 
 ```
 
@@ -208,6 +245,45 @@ const executeInParallelWithPromises = (apis) => {}
 ```
 #### My Solution
 ```javascript
+ const apis = [
+   {
+       apiName: "products",
+       apiUrl: "https://dummyjson.com/products",
+   },
+   {
+       apiName: "users",
+       apiUrl: "https://dummyjson.com/users",
+   },
+   {
+       apiName: "posts",
+       apiUrl: "https://dummyjson.com/posts",
+   },
+   {
+       apiName: "comments",
+       apiUrl: "https://dummyjson.com/comments",
+   }
+]
+
+
+const executeInParallelWithPromises = (apis) => {
+   let promise = apis.map(api => {
+       return fetch(api.apiUrl)
+           .then(response => { response.json() })
+           .then(data => {
+               return {
+                   Name: api.apiName,
+                   Url: api.apiUrl,
+                   Data: data
+               }
+           })
+   })
+
+   return Promise.all(promise)
+}
+
+executeInParallelWithPromises(apis)
+   .then(data=>console.log(data))
+   .catch(err => console.log(err))
 
 ```
 -------------------------------------------------------------------
@@ -255,6 +331,41 @@ const executeInSequenceWithPromises = (apis) => {}
 ```
 #### My Solution
 ```javascript
+const apis = [
+   {
+       apiName: "products",
+       apiUrl: "https://dummyjson.com/products",
+   },
+   {
+       apiName: "users",
+       apiUrl: "https://dummyjson.com/users",
+   },
+   {
+       apiName: "posts",
+       apiUrl: "https://dummyjson.com/posts",
+   },
+   {
+       apiName: "comments",
+       apiUrl: "https://dummyjson.com/comments",
+   }
+]
 
+const executeInSequenceWithPromises = async (apis) => {
+   let result = []
+   for (let api of apis){
+       let response = await fetch(api.apiUrl)
+       let data = await response.json()
+       result.push({
+           Name: api.apiName,
+           Url: api.apiUrl,
+           Data: data
+       })
+   }
+   return result
+}
+
+executeInSequenceWithPromises(apis)
+   .then(result=>console.log(result))
+   .catch(err =>console.log(err))
 ```
 

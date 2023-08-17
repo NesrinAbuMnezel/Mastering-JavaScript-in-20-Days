@@ -40,8 +40,7 @@
     user3.increment = function() {
      user3.score++;
     };
-    // Our code is getting repetitive, we're breaking our DRY principle. And suppose we have millions of users!
-    What could we do?
+    // Our code is getting repetitive, we're breaking our DRY principle. And suppose we have millions of users! What could we do?
 
    
    ```

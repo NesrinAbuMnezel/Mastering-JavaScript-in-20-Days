@@ -65,16 +65,24 @@
      ![2](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/15dc40b3-f9a1-41d1-a03d-4a078ba531a1)
 
 ## Promises
-* ****
-  - 
-  - 
+* **Using two-pronged ‘facade’ functions that both:**
+  - Initiate background web browser work and
+  - Return a placeholder object (promise) immediately in JavaScript
  
 
     ```javascript
+    function display(data){
+     console.log(data)
+    }
+    const futureData = fetch('https://twitter.com/will/tweets/1')
+    futureData.then(display);
     
+    console.log("Me first!");
    
     
     ```
+      ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/c3c83a5c-5c2a-4884-9151-448878d143d6)
+
   
 
      

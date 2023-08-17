@@ -60,6 +60,10 @@
     console.log("Me first!");
    
     ```
+     ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/5d342609-3179-4c74-8546-e998f57d17cd)
+    
+     ![2](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/15dc40b3-f9a1-41d1-a03d-4a078ba531a1)
+
 ## Promises
 * ****
   - 

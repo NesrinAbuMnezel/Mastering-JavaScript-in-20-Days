@@ -109,9 +109,48 @@ user1.hasOwnProperty('score')
   - All objects have a __proto__ property by default which defaults to linking to a big object - Object.prototype full of (somewhat) useful functions
   - We get access to it via userFunctionStore’s __proto__ property - the chain
     
+```javascript
+   // Create and invoke a new function (add1) inside increment
+function userCreator(name, score) {
+ const newUser = Object.create(userFunctionStore);
+ newUser.name = name;
+ newUser.score = score;
+ return newUser;
+};
+const userFunctionStore = {
+ increment: function() {
+ function add1(){ this.score++; }
+ add1()
+ }
+};
+const user1 = userCreator("Will", 3);
+const user2 = userCreator("Tim", 5);
+user1.increment(); 
+   
+   ```
+  ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/4fb08d23-4e38-41bf-a9ee-b3622679d313)
 
-  
+```javascript
+   // Arrow functions override the normal this rules
+function userCreator(name, score) {
+ const newUser = Object.create(userFunctionStore);
+ newUser.name = name;
+ newUser.score = score;
+ return newUser;
+};
+const userFunctionStore = {
+ increment: function() {
+ const add1 = () => { this.score++; }
+ add1()
+ }
+};
+const user1 = userCreator("Will", 3);
+const user2 = userCreator("Tim", 5);
+user1.increment();
 
+   
+   ```
+![2](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/dfc08de1-0e81-4dc3-b4c5-19fb82471ea6)
 
 ## Coding Exercises
 

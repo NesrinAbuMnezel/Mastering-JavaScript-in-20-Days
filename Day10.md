@@ -7,20 +7,20 @@
  
 
  ```javascript
-    Objects - store functions with their associated data!
+    // Objects - store functions with their associated data!
+    // This is the principle of encapsulation - and it’s going to transform how we can ‘reason about’ our code
     const user1 = {
      name: "Will",
      score: 3,
      increment: function() { user1.score++; }
     };
     user1.increment(); //user1.score -> 4
-    This is the principle of encapsulation - and it’s going to transform how we can ‘reason about’ our code
-     Let's keep creating our objects. What alternative techniques do we have for creating objects?
+    // Let's keep creating our objects. What alternative techniques do we have for creating objects?
    
     
  ```
   ```javascript
-    Creating user2 user dot notation
+    // Creating user2 user dot notation
     const user2 = {}; //create an empty object
     //assign properties to that object
     user2.name = "Tim";
@@ -32,15 +32,15 @@
    
   ```
    ```javascript
-    Creating user3 using Object.create
+    // Creating user3 using Object.create
+    // Object.create is going to give us fine-grained control over our object later on
     const user3 = Object.create(null);
     user3.name = "Eva";
     user3.score = 9;
     user3.increment = function() {
      user3.score++;
     };
-    Object.create is going to give us fine-grained control over our object later on
-    Our code is getting repetitive, we're breaking our DRY principle. And suppose we have millions of users!
+    // Our code is getting repetitive, we're breaking our DRY principle. And suppose we have millions of users!
     What could we do?
 
    

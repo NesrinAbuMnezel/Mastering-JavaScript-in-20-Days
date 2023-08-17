@@ -1,12 +1,8 @@
 
 # Day 10: 
 ## Classes & Prototypes
-* ****
-  - 
-  - 
- 
-
  ```javascript
+
     // Objects - store functions with their associated data!
     // This is the principle of encapsulation - and it’s going to transform how we can ‘reason about’ our code
     const user1 = {

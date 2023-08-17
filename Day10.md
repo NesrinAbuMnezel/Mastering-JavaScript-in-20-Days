@@ -46,9 +46,27 @@
    ```
   ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/1a514b4d-0ddc-4d8c-b0ad-2b780780dcff)
 
+  ```javascript
+    // Solution 1. Generate objects using a function
+function userCreator(name, score) {
+ const newUser = {};
+ newUser.name = name;
+ newUser.score = score;
+ newUser.increment = function() {
+ newUser.score++;
+ };
+ return newUser;
+};
+const user1 = userCreator("Will", 3);
+const user2 = userCreator("Tim", 5);
+user1.increment()
+   
+   ```
+  ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/9563a9d5-52f1-4619-8832-2229e7ac7f1c)
 
-     
-
+  **Solution 1. Generate objects using a function**
+   Problems: Each time we create a new user we make space in our computer's memory for all our data and functions. But our functions are just copies
+  
 
 
 ## Coding Exercises

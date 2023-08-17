@@ -7,7 +7,7 @@
   - The event loop - JavaScript’s triage
   - Microtask queue, Callback queue and Web Browser features (APIs)
      ```javascript
-      //A reminder of how JavaScript executes code
+      // A reminder of how JavaScript executes code
      const num = 3;
     function multiplyBy2 (inputNumber){
     const result = inputNumber*2;
@@ -20,7 +20,45 @@
      ![1](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/001b6800-ec74-43fd-b92a-de5acb48cc94)
 
      ![2](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/79437eb6-ea2d-4826-99a6-e1eee649a3e3)
+    
+* **JavaScript is:**
+  - Single threaded (one command runs at a time)
+  - Synchronously executed (each line is run in order the code appears)
+     ```javascript
+      // What if we try to delay a function directly using setTimeout?
+      // setTimeout is a built in function - its first argument is the function to delay followed by ms to delay by
+     function printHello(){
+     console.log("Hello");
+    }
+    setTimeout(printHello,1000);
+    console.log("Me first!");
+   
+    ```
+     ![5](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/d4c5a5b4-5c60-4442-991f-f2d9c3fbb2e9)
 
+     ![4](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/afa1a7b7-03ab-4ca6-bab0-e37053dfc0c7)
+
+     
+* **JavaScript is not enough - We need new pieces (some of which aren’t JavaScript at all)**
+  - Our core JavaScript engine has 3 main parts:
+     - Thread of execution
+     - Memory/variable environment
+     - Call stack
+  - We need to add some new components:
+     - Web Browser APIs/Node background APIs
+     - Promises
+     - Event loop, Callback/Task queue and micro task queue
+       ![3](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/b9fb60dd-4a39-43a6-baf5-3f79a1c60e5f)
+
+     ```javascript
+      function printHello(){ console.log("Hello"); }
+    function blockFor1Sec(){ //blocks in the JavaScript thread for
+    1 sec }
+    setTimeout(printHello,0);
+    blockFor1Sec()
+    console.log("Me first!");
+   
+    ```
 ## Promises
 * ****
   - 

@@ -20,9 +20,7 @@
   ![4](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/3fcabc2c-ffd3-49ee-8e9b-b1567878f82f)
 
     ```javascript
-    function half(x) {
-    return x / 2;
-    }
+   
     ```
   
 ## Coercion

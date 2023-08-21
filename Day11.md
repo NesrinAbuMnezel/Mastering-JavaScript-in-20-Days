@@ -31,15 +31,15 @@
   - ToNumber
   - ToBoolean
 <img width="20%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/bb71655f-8863-404d-9701-ed522145c370"/>
+<img width="20%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/f075cd3a-0366-4ea0-ba26-b57c794bf678"/>
+<img width="20%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/2b357fc4-16f0-4be4-827b-ebc1c7c6daba"/>
+<img width="20%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/7214fb74-c4de-4681-abc1-6028be4654d7"/>
+<img width="20%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/3b8ecff7-4136-4e06-829e-a37e0eb326cd"/>
+<img width="20%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/52839594-03ce-42e9-9499-8f8e8f60aa04"/>
+<img width="20%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/deac4a15-08cd-4ba4-8508-9d154dd87f94"/>
+<img width="20%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/fb2a1df1-d39f-4a1e-b8eb-6bed3887b09d"/>
+<img width="20%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/a0adbad9-b572-4b9a-87ad-3e2778edde5c"/>
 
-![2](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/f075cd3a-0366-4ea0-ba26-b57c794bf678)
-![3](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/2b357fc4-16f0-4be4-827b-ebc1c7c6daba)
-![4](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/7214fb74-c4de-4681-abc1-6028be4654d7)
-![5](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/3b8ecff7-4136-4e06-829e-a37e0eb326cd)
-![6](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/52839594-03ce-42e9-9499-8f8e8f60aa04)
-![7](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/deac4a15-08cd-4ba4-8508-9d154dd87f94)
-![8](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/fb2a1df1-d39f-4a1e-b8eb-6bed3887b09d)
-![9](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/a0adbad9-b572-4b9a-87ad-3e2778edde5c)
 
 
 

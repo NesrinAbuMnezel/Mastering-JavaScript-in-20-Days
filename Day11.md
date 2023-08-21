@@ -14,9 +14,9 @@
   - array
   - object
     
-<img width="100%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/3fcabc2c-ffd3-49ee-8e9b-b1567878f82f"/><br/>
-<img width="100%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/d7e2b2c9-15bb-4748-9a93-469d52efa981"/><br/>
-<img width="100%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/0b6ed34b-8bf5-49c3-b5c5-e10fa2b32685"/><br/>
+<img width="80%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/3fcabc2c-ffd3-49ee-8e9b-b1567878f82f"/><br/>
+<img width="80%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/d7e2b2c9-15bb-4748-9a93-469d52efa981"/><br/>
+<img width="80%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/0b6ed34b-8bf5-49c3-b5c5-e10fa2b32685"/><br/>
   
   
 ## Coercion

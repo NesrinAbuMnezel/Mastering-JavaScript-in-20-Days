@@ -35,6 +35,10 @@
  - ToBoolean
    
 <img width="50%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/deac4a15-08cd-4ba4-8508-9d154dd87f94"/><br/>
+
+
+
+* **corner cases of Coercion**
 <img width="50%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/fb2a1df1-d39f-4a1e-b8eb-6bed3887b09d"/><br/>
 <img width="50%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/a0adbad9-b572-4b9a-87ad-3e2778edde5c"/><br/>
 

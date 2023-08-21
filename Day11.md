@@ -30,7 +30,7 @@
   - ToString
   - ToNumber
   - ToBoolean
-<img width="20%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/bb71655f-8863-404d-9701-ed522145c370"/>
+<img width="20%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/bb71655f-8863-404d-9701-ed522145c370"/><br/>
 <img width="20%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/f075cd3a-0366-4ea0-ba26-b57c794bf678"/>
 <img width="20%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/2b357fc4-16f0-4be4-827b-ebc1c7c6daba"/>
 <img width="20%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/7214fb74-c4de-4681-abc1-6028be4654d7"/>

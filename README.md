@@ -41,6 +41,11 @@ In this challenge, i will enhance my JavaScript skills and knowledge. Each day, 
 - [Exercises for closures	](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%202/tasks.md)
 - [Exercises for Async JS & Promises](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%203/tasks.md)
 - [Object Oriented Programming challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#object-oriented-programming)
+- [Exercises](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%201/tasks.md)
+- [Exercises](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%202/tasks.md)
+- [Exercises](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%203/tasks.md)
+- [Exercises](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%204/tasks.md)
+
 
 
 
@@ -71,3 +76,8 @@ In this challenge, i will enhance my JavaScript skills and knowledge. Each day, 
 -  [**Day 8**](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/blob/main/Day8.md)
 -  [**Day 9**](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/blob/main/Day9.md)
 -  [**Day 10**](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/blob/main/Day10.md)
+-  [**Day 11**](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/blob/main/Day11.md)
+-  [**Day 12**](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/blob/main/Day12.md)
+-  [**Day 13**](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/blob/main/Day13.md)
+-  [**Day 14**](https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/blob/main/Day14.md)
+

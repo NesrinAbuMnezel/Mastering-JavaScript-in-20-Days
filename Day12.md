@@ -55,7 +55,7 @@ const convertToObj = (array) => {
 
 ```
 #### My Solution
-javascript```
+```javascript
 
 ```
 
@@ -89,7 +89,7 @@ C) `1`, `ReferenceError`, `ReferenceError`
 D) `1`, `ReferenceError`
 
 #### My Solution
-javascript```
+```javascript
 
 ```
 -------------------------------------------------------------------
@@ -124,7 +124,7 @@ C)`undefined`, `undefined`,
 D) `1`, `ReferenceError`
 
 #### My Solution
-javascript```
+```javascript
 
 ```
 -------------------------------------------------------------------
@@ -165,6 +165,6 @@ B) `[ 36, 100, 45 ]` | `[1, 2, 3 ]` | `[ 36, 100, 45 ]`
 C) `[ 36, 100, 45 ]` | `[ 1, 2, 3 ]` | `[ 1,100, 45 ]`   
 D) `[ 36, 100, 45 ]` | `[ 1, 2, 3 ]` | `[ 1, 2, 3 ]`
 #### My Solution
-javascript```
+```javascript
 
 ```

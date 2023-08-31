@@ -42,6 +42,13 @@ Without changing anything in the for loop's code itself, provide a solution to
 fix it.
 #### My Solution
 ```javascript
+for (var i = 0; i < 5; i++) {
+    (function(i) {
+        setTimeout(function() {
+            console.log("value of [i] is: ", i);
+        }, 100);
+    })(i);
+}
 
 ```
 -------------------------------------------------------------------
@@ -70,6 +77,13 @@ The output should be: "Current array is: [0, 1, 2, 3, 4]".
 Provide a solution to fix it. 
 #### My Solution
 ```javascript
+let array = []; 
+
+for (let i = 0; i < 5; i++) {
+   array.push(i); 
+}
+
+console.log("Current array is: ", array); 
 
 ```
 -------------------------------------------------------------------
@@ -105,5 +119,14 @@ The output should be:
 Provide a solution to fix it. 
 #### My Solution
 ```javascript
+let functions = [];
+
+for (let i = 0; i < 5; i++) {
+  functions.push(() => {
+    console.log("Current value of i is:", i);
+  });
+}
+
+functions.forEach((func) => func());
 
 ```

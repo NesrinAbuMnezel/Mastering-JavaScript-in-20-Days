@@ -97,10 +97,7 @@ const preservedGreet = preserveThis(obj.greet);
 preservedGreet('Hello'); // Output: "Hello, John!"
 
 ```
-#### My Solution
-```javascript
 
-```
 
 -------------------------------------------------------------------
 
@@ -128,10 +125,7 @@ outer1(); // Output: 10
 > **Reasoning for example 1's output:**  
 > JavaScript's lexical scoping rules allow the inner function inner1 to access variables from outer1
 --------
-#### My Solution
-```javascript
 
-```
 
 **Example 2:**
 
@@ -152,7 +146,4 @@ outer2(); // Output: 20
 
 > **Reasoning for example 2's output:**  
 > This behavior occurs because the inner x variable in inner2 hides the outer x variable from the outer2 function's scope. JavaScript searches for variables in an inner scope before looking in the outer scope.
-#### My Solution
-```javascript
 
-```

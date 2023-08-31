@@ -41,7 +41,18 @@ const exampleNormalFunc3 = (string) => {
 
 
 const arrowHOF = (normalFunc) => {
-  // write your code here;
+  return (...args1) => {
+    return (...args2) => {
+      const result = normalFunc(...args1);
+      const times = args2[0];
+
+      if (typeof times === 'number' && Number.isInteger(times) && times > 0) {
+        for (let i = 0; i < times; i++) {
+          console.log(result);
+        }
+      } 
+    };
+  };
 }
 
 const hofNormalFunc1 = arrowHOF(exampleNormalFunc1);
@@ -53,10 +64,7 @@ console.log(hofNormalFunc2(20, 35))(4); // logs 700 four times
 console.log(hofNormalFunc3("Meow")()); // logs "Meow Meow Meow!" once
 
 ```
-#### My Solution
-```javascript
 
-```
 
 -------------------------------------------------------------------
 
@@ -77,8 +85,9 @@ const obj = {
 };
 
 const preserveThis = (func) => {
-  // write your code here;
-  return func;
+  return (...args) => {
+    return func.apply(this, args);
+  };
 }
 
 // Wrap the greet function using preserveThis
@@ -117,8 +126,7 @@ outer1(); // Output: 10
 ```
 
 > **Reasoning for example 1's output:**  
-> .................................................................................
-
+> JavaScript's lexical scoping rules allow the inner function inner1 to access variables from outer1
 --------
 #### My Solution
 ```javascript
@@ -143,7 +151,7 @@ outer2(); // Output: 20
 ```
 
 > **Reasoning for example 2's output:**  
-> .................................................................................
+> This behavior occurs because the inner x variable in inner2 hides the outer x variable from the outer2 function's scope. JavaScript searches for variables in an inner scope before looking in the outer scope.
 #### My Solution
 ```javascript
 

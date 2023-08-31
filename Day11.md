@@ -57,7 +57,14 @@ If the input is not a string, return an object of the input's value and type.
 
 ```javascript
 function convertStringToNumber(input) {
-  //write your own code here
+   if (typeof input === 'string') {
+    return +input;
+  } else {
+    return {
+      value: input,
+      type: typeof input
+    };
+  }
 }
 ```
 
@@ -74,9 +81,7 @@ Write a function called `checkNaN` that takes a single argument and returns
 
 
 ```javascript
-const checkNaN = (value) => {
-  //write your own code here
-}
+const checkNaN = (value) =>  Number.isNaN(value);
 ```
 -------------------------------------------------------------------
 
@@ -91,7 +96,7 @@ null, or empty string).
 
 ```javascript
 function isEmptyValue(value) {
-  //write your own code here
+return value === null || value === '' || value === undefined ;
 }
 ```
 
@@ -113,7 +118,11 @@ array of the arguments.
 
 ```javascript
 function compareObjects(input1, input2) {
-  //write your own code here
+   if (typeof input1 === 'object' && typeof input2 === 'object') {
+    return JSON.stringify(input1) === JSON.stringify(input2);
+  } else {
+    return [input1, input2];
+  }
 }
 ```
 
@@ -139,7 +148,15 @@ If input is not a primitive type, return the argument.
 
 ```javascript
 const complexCoercion = (input) => {
-  //write your own code here
+  if (typeof input === 'number') {
+    return Boolean(String(input));
+  } else if (typeof input === 'string') {
+    return Boolean(input);
+  } else if (input === null || input === undefined) {
+    return false;
+  } else {
+    return input;
+  }
 }
 ```
 

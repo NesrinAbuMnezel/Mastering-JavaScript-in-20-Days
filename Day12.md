@@ -96,7 +96,7 @@ D) `1`, `ReferenceError`
 
 #### My Solution
 ```javascript
- `C` 
+C => var has function scope, let and const block scope
 ```
 -------------------------------------------------------------------
 
@@ -131,7 +131,7 @@ D) `1`, `ReferenceError`
 
 #### My Solution
 ```javascript
-
+A => var has function scope, let and const block scope
 ```
 -------------------------------------------------------------------
 
@@ -172,5 +172,6 @@ C) `[ 36, 100, 45 ]` | `[ 1, 2, 3 ]` | `[ 1,100, 45 ]`
 D) `[ 36, 100, 45 ]` | `[ 1, 2, 3 ]` | `[ 1, 2, 3 ]`
 #### My Solution
 ```javascript
+B => var has function scope, let and const block scope
 
 ```

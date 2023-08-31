@@ -14,9 +14,9 @@
 <img width="50%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/a04f7249-f4ca-4940-822f-946075cc0407"/><br/>
 
 ## Static Typing
-<img width="50%" height="40%" src=""/><br/>
-<img width="50%" height="40%" src=""/><br/>
-<img width="50%" height="40%" src=""/><br/>
+<img width="50%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/a87c0907-b3ac-4afb-8fd4-87904bad8141"/><br/>
+<img width="50%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/b7a565c1-0c4b-4b16-80a9-74f54ee33b35"/><br/>
+<img width="50%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/5021dc1b-7152-4763-951a-38317b1491d2"/><br/>
 
 
 

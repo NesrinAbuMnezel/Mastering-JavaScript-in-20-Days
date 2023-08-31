@@ -1,16 +1,22 @@
 
 # Day 12: 
-## Philosophy of Coercion
-* ****
-  - 
+## Equality
+* **== vs. ===**
+  - == checks value (loose)
+  - === checks value and type (strict)
 
     
-<img width="50%" height="40%" src=""/><br/>
+<img width="50%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/691cc723-8324-4134-86e1-8f77c9ed87ae"/><br/>
+<img width="50%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/948a610a-9407-4467-9114-0acaac3f3ee4"/><br/>
+<img width="50%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/15e6ee97-d57e-4ba6-b890-f52eacbf9fb0"/><br/>
+<img width="50%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/db9fe365-0028-4da1-bf0d-4e33429529bb"/><br/>
+<img width="50%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/5cd0020f-aad1-4a0a-8faa-2d14dd3a8a3b"/><br/>
+<img width="50%" height="40%" src="https://github.com/NesrinAbuMnezel/Mastering-JavaScript-in-20-Days/assets/95749191/a04f7249-f4ca-4940-822f-946075cc0407"/><br/>
 
-  
-  
-## Equality
 ## Static Typing
+<img width="50%" height="40%" src=""/><br/>
+<img width="50%" height="40%" src=""/><br/>
+<img width="50%" height="40%" src=""/><br/>
 
 
 
